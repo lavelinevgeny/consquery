@@ -4098,6 +4098,12 @@ QmCC}
 		ЭтотОбъектФорма = ""ЭтаФорма""
 	КонецЕсли;
 	
+	Попытка
+		ЭтотОбъектДоступен = Вычислить(""ЭтотОбъект <> Неопределено"");
+	Исключение
+		ЭтотОбъектДоступен = Ложь;
+	КонецПопытки; 
+	
 	Объект.ДоступныеТипыДанных = ОбработкаОбъект.Метаданные().Реквизиты.ДоступныеТипыДанных.Тип;
 	Объект.ПутьКФормам         = ОбработкаОбъект.Метаданные().ПолноеИмя() + "".Форма"";
 	ПутьКФайлуСОбработкой      = ОбработкаОбъект.ИспользуемоеИмяФайла;
@@ -5002,7 +5008,7 @@ QmCC}
 
 Функция РезультатЗапросаНаСервере() Экспорт
 	
-	Возврат Вычислить(СвойстваРеквизитаРезультатЗапроса.ИмяРеквизита);
+	Возврат Вычислить(?(ЭтотОбъектДоступен, ""ЭтотОбъект."", """") + СвойстваРеквизитаРезультатЗапроса.ИмяРеквизита);
 	
 КонецФункции // РезультатЗапросаНаСервере()
 
@@ -6075,7 +6081,7 @@ QmCC}
 		Если Результат = КодВозвратаДиалога.Да Тогда
 			
 			лКоличествоСтрок     = лДанныеБуфера.Текст.КоличествоСтрок();
-			лАнализируемаяСтрока = ?(лКоличествоСтрок > 1, 1, 0);
+			лАнализируемаяСтрока = ?(лКоличествоСтрок > 1, 2, 1);
 			
 			лМассивКолонокСтрокиТаблицы = гРазложитьСтрокуВМассивПодстрок(ТипОбработка, 
 				СеансовыеДанные, 
@@ -6274,6 +6280,10 @@ QmCC}
 	Для Каждого лПараметр Из лПараметры Цикл
 		Если лПараметр.ТипЗначения.Типы().Количество() > 0 Тогда 
 			лТипЗначения = лПараметр.ТипЗначения;
+			Если XMLТип(лТипЗначения.Типы()[0]) = Неопределено Тогда 
+				Сообщить(""Не получилось получить XMLТип для типа "" + Строка(лТипЗначения));
+				лТипЗначения = Новый ОписаниеТипов(""Строка"");
+			КонецЕсли;
 		Иначе
 			лТипЗначения = Новый ОписаниеТипов(""Строка"");
 		КонецЕсли;
@@ -7374,8 +7384,10 @@ QmCC}
 //
 Функция СтрокаВДату(Знач Значение) Экспорт
 	
+	Если Лев(Прав(Значение, 8), 1) = "" "" И Лев(Прав(Значение, 6), 1) = "":"" И СтрокаВЧисло(Лев(Прав(Значение, 7), 1)) <> Неопределено Тогда 
+		Значение = Лев(Значение, СтрДлина(Значение) - 8) + ""0"" + Сред(Значение, СтрДлина(Значение) - 6);
+	КонецЕсли;
 	Значение = СтрЗаменить(Значение, "" 0:"", ""00:"");
-	Значение = СтрЗаменить(Значение, "" "", """");
 	Значение = СокрЛП(СтрЗаменить(Значение, ""."", """"));
 	Значение = СокрЛП(СтрЗаменить(Значение, ""/"", """"));
 	Значение = СокрЛП(СтрЗаменить(Значение, ""-"", """"));
@@ -7388,8 +7400,6 @@ QmCC}
 		КонецЕсли;
 		Значение = ?(Год > 29, ""19"", ""20"") + Значение;
 	КонецЕсли;
-	
-	Сообщить(Значение);
 	
 	ОписаниеТипа = Новый ОписаниеТипов(""Дата"");
 	Результат    = ОписаниеТипа.ПривестиЗначение(Значение);
@@ -8797,7 +8807,7 @@ QmCC}
 мДлительнаяОперацияЗапущена       = Ложь;
 мОперацияПослеСохраненияИзменений = Неопределено;
 чёмСохранитьПередВыполнением        = Ложь;",
-{4,25,
+{4,26,
 {9,
 {1},0,"Объект",
 {1,0},
@@ -9753,6 +9763,27 @@ QmCC}
 {0,0},0,0,0,0,
 {0,0},
 {0,0}
+},
+{9,
+{44},0,"ЭтотОбъектДоступен",
+{1,1,
+{"ru","Этот объект доступен"}
+},
+{"Pattern",
+{"B"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},
+{0,0},0,0,0,0,
+{0,0},
+{0,0}
 },0,1,"ПараметрыТекущегоЗапроса.ГлобальныйПараметр","ПараметрыТекущегоЗапроса.ГлобальныйПараметр",
 {2,
 {24},
@@ -9788,7 +9819,30 @@ PGRjc2NvcjpwYXJhbWV0ZXI+0KbQstC10YLQpNC+0L3QsDwvZGNzY29yOnBhcmFt
 ZXRlcj4NCgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xvciI+
 d2ViOlJlZDwvZGNzY29yOnZhbHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8
 L2FwcGVhcmFuY2U+DQoJCTwvaXRlbT4NCgk8L2NvbmRpdGlvbmFsQXBwZWFyYW5j
-ZT4NCgk8b3V0cHV0UGFyYW1ldGVycy8+DQo8L1NldHRpbmdzPg==}
+ZT4NCgk8b3V0cHV0UGFyYW1ldGVycz4NCgkJPGRjc2NvcjppdGVtIHhzaTp0eXBl
+PSJTZXR0aW5nc1BhcmFtZXRlclZhbHVlIj4NCgkJCTxkY3Njb3I6dXNlPmZhbHNl
+PC9kY3Njb3I6dXNlPg0KCQkJPGRjc2NvcjpwYXJhbWV0ZXI+0KLQuNC/0JTQuNCw
+0LPRgNCw0LzQvNGLPC9kY3Njb3I6cGFyYW1ldGVyPg0KCQkJPGRjc2Nvcjp2YWx1
+ZSB4c2k6dHlwZT0idjh1aTpDaGFydFR5cGUiPkNvbHVtbjNEPC9kY3Njb3I6dmFs
+dWU+DQoJCQk8ZGNzY29yOml0ZW0geHNpOnR5cGU9IlNldHRpbmdzUGFyYW1ldGVy
+VmFsdWUiPg0KCQkJCTxkY3Njb3I6dXNlPmZhbHNlPC9kY3Njb3I6dXNlPg0KCQkJ
+CTxkY3Njb3I6cGFyYW1ldGVyPtCi0LjQv9CU0LjQsNCz0YDQsNC80LzRiy7QntC/
+0LjRgdCw0L3QuNC10J/QsNC70LjRgtGA0YvQptCy0LXRgtC+0LI8L2Rjc2Nvcjpw
+YXJhbWV0ZXI+DQoJCQkJPGRjc2Nvcjp2YWx1ZSB4bWxuczpkNXAxPSJodHRwOi8v
+djguMWMucnUvOC4yL2RhdGEvY2hhcnQiIHhzaTp0eXBlPSJkNXAxOkNoYXJ0Q29s
+b3JQYWxldHRlRGVzY3JpcHRpb24iPg0KCQkJCQk8ZDVwMTpjb2xvclBhbGV0dGU+
+UGFsZXR0ZTMyPC9kNXAxOmNvbG9yUGFsZXR0ZT4NCgkJCQk8L2Rjc2Nvcjp2YWx1
+ZT4NCgkJCTwvZGNzY29yOml0ZW0+DQoJCQk8ZGNzY29yOml0ZW0geHNpOnR5cGU9
+IlNldHRpbmdzUGFyYW1ldGVyVmFsdWUiPg0KCQkJCTxkY3Njb3I6dXNlPmZhbHNl
+PC9kY3Njb3I6dXNlPg0KCQkJCTxkY3Njb3I6cGFyYW1ldGVyPtCi0LjQv9CU0LjQ
+sNCz0YDQsNC80LzRiy7QntC/0LjRgdCw0L3QuNC10J/QsNC70LjRgtGA0YvQptCy
+0LXRgtC+0LLQmNC90YTQvtGA0LzQsNGG0LjQvtC90L3Ri9GF0JjQvdGC0LXRgNCy
+0LDQu9C+0LI8L2Rjc2NvcjpwYXJhbWV0ZXI+DQoJCQkJPGRjc2Nvcjp2YWx1ZSB4
+bWxuczpkNXAxPSJodHRwOi8vdjguMWMucnUvOC4yL2RhdGEvY2hhcnQiIHhzaTp0
+eXBlPSJkNXAxOkNoYXJ0Q29sb3JQYWxldHRlRGVzY3JpcHRpb24iPg0KCQkJCQk8
+ZDVwMTpjb2xvclBhbGV0dGU+UGFsZXR0ZTMyPC9kNXAxOmNvbG9yUGFsZXR0ZT4N
+CgkJCQk8L2Rjc2Nvcjp2YWx1ZT4NCgkJCTwvZGNzY29yOml0ZW0+DQoJCTwvZGNz
+Y29yOml0ZW0+DQoJPC9vdXRwdXRQYXJhbWV0ZXJzPg0KPC9TZXR0aW5ncz4=}
 },
 {0,4,
 {0,"ДействиеВыбора",
