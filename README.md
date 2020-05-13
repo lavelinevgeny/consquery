@@ -1,3 +1,5 @@
+[![Join telegram chat](https://img.shields.io/badge/chat-telegram-blue?style=flat&logo=telegram)](https://t.me/consquery)
+
 Старое расположение <a href = "https://github.com/evgenylavelin/consquery" target="_blank">здесь</a>
 # Консоль запросов 1С consquery.ru
 Старое название: Дополненная обработка Консоль запросов (обычный + управляемый)
