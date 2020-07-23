@@ -111,63 +111,89 @@
 {0},4,1,0,48312c09-257f-4b29-b280-284dd89efc1e},
 {1,0},0,0,100,0,0},9,1,0,0,1,1,
 {5,47ef050b-e4be-46e1-b35e-a7646351634a,501,1,50,
-{7,eaf03c9d-b9e5-4c35-9468-8b6fc4cc5f56,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,363b8f6d-c39a-43e9-b21a-f1409e9398a8,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,f15e3d1d-9132-4de6-a39e-342718a19b6a,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюДействияСравнитьЗапросы",
-{1,"МенюДействияСравнитьЗапросы",
-{1,1,
-{"ru","Меню действия сравнить запросы"}
-},
-{1,1,
-{"ru","Меню действия сравнить запросы"}
-},
-{1,1,
-{"ru","Меню действия сравнить запросы"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},1,
+{7,7286f7dd-9a6f-4602-abe9-2d8595497e39,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,47ef050b-e4be-46e1-b35e-a7646351634a,310},0,1},
+{7,d0950a1d-f5ad-4e5f-8382-dd9e3a21f04e,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,47ef050b-e4be-46e1-b35e-a7646351634a,483},1,
 {4,1,
-{0,3bdc16c8-6a96-4467-9442-a8e4804b3fa2},"",-1,-1,1,0,""},1},
-{7,92ccff6d-7226-43e1-b644-3d713fbff00b,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,47ef050b-e4be-46e1-b35e-a7646351634a,472},1,
-{4,1,
-{0,1970a480-9b38-405e-9d9e-8209f3fad5f1},"",-1,-1,1,0,""},1},
-{7,16ed4895-c36a-45e2-9af4-219b5460f49c,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КоманднаяПанельФормыОткрытьФайл",
-{1,"КоманднаяПанельФормыОткрытьФайл",
+{0,ed0bec43-4633-416c-8c08-0384ca444e32},"",-1,-1,1,0,""},1},
+{7,18dec941-00e1-450c-a0e6-19c847ae5751,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюДействияСохранитьТекущийЗапросВФайл",
+{1,"МенюДействияСохранитьТекущийЗапросВФайл",
 {1,1,
-{"ru","Командная панель формы открыть файл"}
+{"ru","Меню действия сохранить текущий запрос в файл"}
 },
 {1,1,
-{"ru","Командная панель формы открыть файл"}
+{"ru","Меню действия сохранить текущий запрос в файл"}
 },
 {1,1,
-{"ru","Командная панель формы открыть файл"}
+{"ru","Меню действия сохранить текущий запрос в файл"}
 },
 {4,0,
 {0},"",-1,-1,1,0,""},
 {0,0,0}
 }
 },15,
-{1,2,
-{"ru_RU","Закрыть файл"},
-{"ru","Открыть файл запросов"}
+{1,1,
+{"ru","Сохранить текущий запрос в файл"}
 },
 {1,1,
-{"ru","Открыть файл запровов"}
+{"ru","Сохранить текущий запрос в файл"}
 },
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:Qk3mAQAAAAAAADYAAAAoAAAADAAAAAwAAAABABgAAAAAALABAADEDgAAxA4AAAAA
+AAAAAAAAa2tra2trAAAAAAAAAAAAAAAAAAAAAAAAa2tra2tra2tra2tra2trk5OT
+AAAAk5OTAAAAAAAAAAAAAAAAk5OTk5OTk5OTa2tra2trk5OTAAAAk5OTAAAAAAAA
+AAAAAAAAk5OTk5OTk5OTa2tra2trk5OTAAAAAAAAAAAAAAAAAAAAAAAAk5OTk5OT
+k5OTa2tra2trk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTa2tra2trk5OT
+k5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTa2tra2trk5OTAP//////////////
+////////////AP//k5OTa2tra2trk5OTAP//////////////////////////AP//
+k5OTa2tra2trk5OTAP//////////////////////////AP//k5OTa2tra2trk5OT
+AP//////////////////////////AP//k5OTa2tra2trk5OTAP//AP//AP//AP//
+AP//AP//AP//AP//k5OTa2tra2tra2trAMzMAMzMAMzMAMzMAMzMAMzMAMzMAMzM
+a2tra2tr}
+},0,""},
+{0,0,0},1},
+{7,c9ebca41-bfbc-406e-9802-983fd1a1c313,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КоманднаяПанельФормыВыполнитьПакет",
+{1,"КоманднаяПанельФормыВыполнитьПакет",
+{1,1,
+{"ru","Выполнить пакет"}
+},
+{1,1,
+{"ru","Выполнить пакет"}
+},
+{1,1,
+{"ru","Выполнить пакет"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},1,
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3
+YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAIZJREFUOE+lk0sOwCAIRDltz9E7
+9MAWGjHDzzSycOEE3gxBaYxBndNqFmMDoEeuNlGmYU0A+Aa57yARcHMDH3X5AE7b
+J5jFCkEAgpeBoYGbunqAh5Qj7AB0wYgnCf4D2CmMAO7pO1jRZ6EBuOYI0A3gjIlW
+r1GKfcREqwFZxEQrASe/sv0bX81fgwejxexvAAAAAElFTkSuQmCC}
+},0,""},1},
+{7,eb52ad49-b880-431d-8f19-301ddd5c9c22,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
+{7,274987b2-a22f-4907-9ff6-c7a3fd02603d,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,47ef050b-e4be-46e1-b35e-a7646351634a,472},1,
 {4,1,
-{0,785362cb-3756-48ed-87d2-292ded17054a},"",7,2,1,0,""},
-{0,79,12},1},
-{7,eb44b915-3dda-4e89-b64b-f2f3753381d3,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,47ef050b-e4be-46e1-b35e-a7646351634a,483},1,
-{4,1,
-{0,ed0bec43-4633-416c-8c08-0384ca444e32},"",-1,-1,1,0,""},1},
-{7,e51514fe-5df9-49e6-b669-3b889da775fb,1,e1692cc2-605b-4535-84dd-28440238746c,
+{0,1970a480-9b38-405e-9d9e-8209f3fad5f1},"",-1,-1,1,0,""},1},
+{7,04d33f06-8f62-4cb2-9ba9-d353924ed1b2,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,47ef050b-e4be-46e1-b35e-a7646351634a,447},0,1},
+{7,18984246-40a5-4cb7-a7ab-9d8cc00d233c,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюДействияНастройкаАвтосохранения",
 {1,"МенюДействияНастройкаАвтосохранения",
 {1,1,
@@ -212,40 +238,77 @@ a2tra///////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 /////////////w==}
 },0,""},1},
-{7,7c144286-294a-4b46-a925-1ca8e9acb799,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,8c916efa-14cf-4c0c-888a-47d62e5df220,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,821a6ea0-23e5-4f03-b42b-72b6b218f7b6,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КоманднаяПанельФормыВыполнитьПакет",
-{1,"КоманднаяПанельФормыВыполнитьПакет",
+{7,85191c98-4375-4b23-9b04-3b702b3d7419,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюДействияСравнитьЗапросы",
+{1,"МенюДействияСравнитьЗапросы",
 {1,1,
-{"ru","Выполнить пакет"}
+{"ru","Меню действия сравнить запросы"}
 },
 {1,1,
-{"ru","Выполнить пакет"}
+{"ru","Меню действия сравнить запросы"}
 },
 {1,1,
-{"ru","Выполнить пакет"}
+{"ru","Меню действия сравнить запросы"}
 },
 {4,0,
 {0},"",-1,-1,1,0,""},
 {0,0,0}
 }
 },1,
+{4,1,
+{0,3bdc16c8-6a96-4467-9442-a8e4804b3fa2},"",-1,-1,1,0,""},1},
+{7,c8187153-bacc-491e-a1db-232131f2c3a2,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
+{7,edb71493-5a8b-4d47-95d8-a6f7dd154f1f,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
+{7,f608ca53-98d1-458d-a5ee-27be1b0f123a,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
+{7,7da769ac-2404-4db2-a400-212d5a6f3d4a,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,0,00000000-0000-0000-0000-000000000000,86,
+{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,1},
+{7,39f14eac-5bd9-43f4-a663-be2fd0fb6f12,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюДействияДобавитьЗапросИзОблака",
+{1,"МенюДействияДобавитьЗапросИзОблака",
+{1,1,
+{"ru","Меню действия добавить запрос из облака"}
+},
+{1,1,
+{"ru","Меню действия добавить запрос из облака"}
+},
+{1,1,
+{"ru","Меню действия добавить запрос из облака"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},15,
+{1,2,
+{"ru_RU","Закрыть файл"},
+{"ru","Добавить запрос из облака"}
+},
+{1,1,
+{"ru","Добавить запрос из облака"}
+},
 {4,3,
 {0},"",-1,-1,0,
 {
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
-AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3
-YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAIZJREFUOE+lk0sOwCAIRDltz9E7
-9MAWGjHDzzSycOEE3gxBaYxBndNqFmMDoEeuNlGmYU0A+Aa57yARcHMDH3X5AE7b
-J5jFCkEAgpeBoYGbunqAh5Qj7AB0wYgnCf4D2CmMAO7pO1jRZ6EBuOYI0A3gjIlW
-r1GKfcREqwFZxEQrASe/sv0bX81fgwejxexvAAAAAElFTkSuQmCC}
-},0,""},1},
-{7,dd69ec37-aacb-43ed-8d47-c3a72c9e0b97,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,b663dbac-a232-478c-ba87-c242e952e9b5,1,e1692cc2-605b-4535-84dd-28440238746c,
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2Fy
+ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgRJREFUeNqkk0tIVFEYx//n3nMz71iL
+nOmhDhaZEkIUET1AaJN7wY3lQmwR1KZlEbQQy1btWkRkm9CNYUtpFoFhECqOjwqF
+O2OIqDOMPZy5No97j9853rmOYbPxwI/vO+d7nvPdy4QQ2M/iX54ypTC220D7Co2h
+i9Saf2LeOS5minV5ieE2caq4kQ6B8PX6cPtIZzKdRrd1BKmUjVfRKp3Ml4jXqtBY
+r5+g79r99w+E40C4EhfCKUDuXSkL21I2OjV49xmJh7pGHdC5fx0VnP1Ljo4Kdot4
+wRJN56AtrzzgBZUmcHKbWJkcAmR14W53oaTwdcY0GDpayL+HbrnI8wU/gbGxZoGb
+xxBsuFr25cNXbl1OzI8a1mj/c57b6cBIxGYRrG1GZj1RNoHODcSiH61MFuO7Ovjz
+6zeO1h9EPrtZNoH9czXxIx5f5hoWuJ3zz03zcB3UC9E9/78Y5uc+x9fTGKPvBHzC
+AhqO07sJLEWG30RKXb8uoVrK5jBSpeeahml606FYEmqsOHMCaD0HnAztOEUaA/jw
+OPNI6q09gSc3FjK+bZECR6KAteYl2HMNhF7ie/6i0s8ak7iZvLPnv0AEidPEeeIC
+0UQcwkAabf0dKsFw96AUE4ScWdzTx4lvsgODqCSqPEw5KdwzOxFiLapMUnzCC/ut
+V1SOaMPDZvv9nbcEGADl3eE+A+im4gAAAABJRU5ErkJggg==}
+},0,""},
+{0,79,24},1},
+{7,d2d5dbac-5704-442c-9c6b-bba9ba0bd316,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельФормыВыполнитьЗапросПоСпискуИБ",
 {1,"КоманднаяПанельФормыВыполнитьЗапросПоСпискуИБ",
 {1,1,
@@ -301,7 +364,141 @@ BNfX19fX19fX19cFBQUFBQTX19fX19fX19fXBQUFBQXX19fX19fX19fX1wUFBQXX
 19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19c=}
 },0,""},
 {0,118,16},1},
-{7,0ac97bbc-e999-4652-912c-6d0b02f3c37c,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,8c57a933-d910-4ffb-bea1-e062de8fa9ed,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КоманднаяПанельФормыПараметрыИБ",
+{1,"КоманднаяПанельФормыПараметрыИБ",
+{1,1,
+{"ru","Параметры ИБ"}
+},
+{1,1,
+{"ru","Параметры ИБ"}
+},
+{1,1,
+{"ru","Параметры ИБ"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},15,
+{1,1,
+{"ru","Параметры ИБ"}
+},
+{1,1,
+{"ru","Параметры ИБ"}
+},
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK
+6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFmSURBVBgZ
+BcHPa85xAAfw1/Psy9bEFE+MgwyzrLS4KqUQRauVODohB/+As7OzGilZrpQki4OL
+gyiEImFWmqb5sfZ4vt/P2+vVitn+nMyZMpZdKeV1PpTpMjvZALQe7clMZ+9mawyK
+Jb99sfA0p6e+AR4+/pySJEmSJOnlRe7cjIhoZ3wTAICtyjGAqojvBvRbJZYt+maH
+AqAqovLTiqj90lWJAqCK6DOgUumpBTPqDkBVRK2n1tJ477tRI+LKoe71pQdXz7eL
+aNRqjcaCA2LEqLHZY9uac8cHqyJ6ehp9Gpux5LEB+zSGbtxfbhdFrdaIuzYa9spF
+nYW3y1tMnL2QdmNRRz/4a1HXBvN60vttzry+qTdfJ9urh3WsM+GHrvWe5V/G1zXu
+Ty8cbsWt7eVymWoPDaq9c9Anu634aMS0uaoVwLW19c66PL/05+zQif33fnh5unt7
++dGToyIiIiIiTuVIIiL+A271xrBxnHZ+AAAAAElFTkSuQmCC}
+},0,""},
+{0,81,16},1},
+{7,45d5c8df-096c-4da0-901c-f4707096abda,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"ПодменюВременныеТаблицыИспользоватьМенеджерВременныхТаблиц",
+{1,"ПодменюВременныеТаблицыИспользоватьМенеджерВременныхТаблиц",
+{1,1,
+{"ru","Подменю временные таблицы использовать менеджер временных таблиц"}
+},
+{1,1,
+{"ru","Подменю временные таблицы использовать менеджер временных таблиц"}
+},
+{1,1,
+{"ru","Подменю временные таблицы использовать менеджер временных таблиц"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},0,1},
+{7,54591350-140b-4ae5-a89e-eb772099afc4,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюДействиеВыгрузитьВсеЗапросыВОблако",
+{1,"МенюДействиеВыгрузитьВсеЗапросыВОблако",
+{1,1,
+{"ru","Меню действие выгрузить все запросы в облако"}
+},
+{1,1,
+{"ru","Меню действие выгрузить все запросы в облако"}
+},
+{1,1,
+{"ru","Меню действие выгрузить все запросы в облако"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},15,
+{1,1,
+{"ru","Выгрузить все запросы в облако"}
+},
+{1,1,
+{"ru","Выгрузить все запросы в облако"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,83,24},1},
+{7,2c1a4550-63e7-45ba-92aa-0cefbaab7532,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,47ef050b-e4be-46e1-b35e-a7646351634a,449},0,1},
+{7,f2a3569b-5483-4c4a-8d2b-38d10e0af2c9,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
+{7,26e001c0-1bd9-471e-b02f-a6560ac43bc3,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,0,00000000-0000-0000-0000-000000000000,85,
+{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,1},
+{7,69081e80-f060-43af-91aa-a427c7789528,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"ПодменюВременныеТаблицыПоказатьВыделеннуюВременнуюТаблицу",
+{1,"ПодменюВременныеТаблицыПоказатьВыделеннуюВременнуюТаблицу",
+{1,1,
+{"ru","Подменю временные таблицы показать выделенную временную таблицу"}
+},
+{1,1,
+{"ru","Подменю временные таблицы показать выделенную временную таблицу"}
+},
+{1,1,
+{"ru","Подменю временные таблицы показать выделенную временную таблицу"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},6,
+{1,1,
+{"ru","Показать выделенную временную таблицу"}
+},
+{1,1,
+{"ru","Показать выделенную временную таблицу"}
+},1},
+{7,970a7a7f-8a69-4b6e-88d4-15e722609cb8,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"ПодменюВременныеТаблицыПерейтиКОписаниюВременнойТаблицы",
+{1,"ПодменюВременныеТаблицыПерейтиКОписаниюВременнойТаблицы",
+{1,1,
+{"ru","Подменю временные таблицы перейти к описанию временной таблицы"}
+},
+{1,1,
+{"ru","Подменю временные таблицы перейти к описанию временной таблицы"}
+},
+{1,1,
+{"ru","Подменю временные таблицы перейти к описанию временной таблицы"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},6,
+{1,1,
+{"ru","Перейти к описанию временной таблицы"}
+},
+{1,1,
+{"ru","Перейти к описанию временной таблицы"}
+},1},
+{7,1e29402b-e0e0-48b2-b747-584c73a68763,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельФормыВыполнитьЗапрос",
 {1,"КоманднаяПанельФормыВыполнитьЗапрос",
 {1,1,
@@ -348,95 +545,7 @@ AAAAAAAA////////////////////////////////////////////////////////
 ////////}
 },0,""},
 {0,118,0},1},
-{7,a63a75fc-94e5-43d6-ac39-f26510a6e142,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КоманднаяПанельФормыПараметрыИБ",
-{1,"КоманднаяПанельФормыПараметрыИБ",
-{1,1,
-{"ru","Параметры ИБ"}
-},
-{1,1,
-{"ru","Параметры ИБ"}
-},
-{1,1,
-{"ru","Параметры ИБ"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},15,
-{1,1,
-{"ru","Параметры ИБ"}
-},
-{1,1,
-{"ru","Параметры ИБ"}
-},
-{4,3,
-{0},"",-1,-1,0,
-{
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK
-6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFmSURBVBgZ
-BcHPa85xAAfw1/Psy9bEFE+MgwyzrLS4KqUQRauVODohB/+As7OzGilZrpQki4OL
-gyiEImFWmqb5sfZ4vt/P2+vVitn+nMyZMpZdKeV1PpTpMjvZALQe7clMZ+9mawyK
-Jb99sfA0p6e+AR4+/pySJEmSJOnlRe7cjIhoZ3wTAICtyjGAqojvBvRbJZYt+maH
-AqAqovLTiqj90lWJAqCK6DOgUumpBTPqDkBVRK2n1tJ477tRI+LKoe71pQdXz7eL
-aNRqjcaCA2LEqLHZY9uac8cHqyJ6ehp9Gpux5LEB+zSGbtxfbhdFrdaIuzYa9spF
-nYW3y1tMnL2QdmNRRz/4a1HXBvN60vttzry+qTdfJ9urh3WsM+GHrvWe5V/G1zXu
-Ty8cbsWt7eVymWoPDaq9c9Anu634aMS0uaoVwLW19c66PL/05+zQif33fnh5unt7
-+dGToyIiIiIiTuVIIiL+A271xrBxnHZ+AAAAAElFTkSuQmCC}
-},0,""},
-{0,81,16},1},
-{7,aed5b00b-8327-4834-b3a8-6a761d3b74d6,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"ПодменюВременныеТаблицыИспользоватьМенеджерВременныхТаблиц",
-{1,"ПодменюВременныеТаблицыИспользоватьМенеджерВременныхТаблиц",
-{1,1,
-{"ru","Подменю временные таблицы использовать менеджер временных таблиц"}
-},
-{1,1,
-{"ru","Подменю временные таблицы использовать менеджер временных таблиц"}
-},
-{1,1,
-{"ru","Подменю временные таблицы использовать менеджер временных таблиц"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},0,1},
-{7,310f78e5-a4ab-45a5-9db9-b6dd50df7225,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,9a7d49af-8fa6-408b-a145-4859ac5e1354,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,29e7b9ef-1102-4995-82c0-b1d9bc5f28ae,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,47ef050b-e4be-46e1-b35e-a7646351634a,447},0,1},
-{7,58842251-f0b0-4192-8b8c-67f8672c2bf8,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,47ef050b-e4be-46e1-b35e-a7646351634a,449},0,1},
-{7,cb3b761a-66ae-4101-a2ce-2dd92a6e7de2,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,7b9acd08-e7fb-4402-8398-87acb970dd21,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"ПодменюВременныеТаблицыПоказатьВыделеннуюВременнуюТаблицу",
-{1,"ПодменюВременныеТаблицыПоказатьВыделеннуюВременнуюТаблицу",
-{1,1,
-{"ru","Подменю временные таблицы показать выделенную временную таблицу"}
-},
-{1,1,
-{"ru","Подменю временные таблицы показать выделенную временную таблицу"}
-},
-{1,1,
-{"ru","Подменю временные таблицы показать выделенную временную таблицу"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},6,
-{1,1,
-{"ru","Показать выделенную временную таблицу"}
-},
-{1,1,
-{"ru","Показать выделенную временную таблицу"}
-},1},
-{7,88d3498d-0d4e-443d-b4ac-98838c10674b,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,126ddd2b-e8dc-4198-8a27-46366abe10ff,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельФормыОткрытьФайл",
 {1,"КоманднаяПанельФормыОткрытьФайл",
 {1,1,
@@ -463,103 +572,9 @@ Ty8cbsWt7eVymWoPDaq9c9Anu634aMS0uaoVwLW19c66PL/05+zQif33fnh5unt7
 {4,1,
 {0,785362cb-3756-48ed-87d2-292ded17054a},"",7,2,1,0,""},
 {0,79,12},1},
-{7,819e624d-68bd-4c98-8955-7c6b9ffd6da2,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"ПодменюВременныеТаблицыПерейтиКОписаниюВременнойТаблицы",
-{1,"ПодменюВременныеТаблицыПерейтиКОписаниюВременнойТаблицы",
-{1,1,
-{"ru","Подменю временные таблицы перейти к описанию временной таблицы"}
-},
-{1,1,
-{"ru","Подменю временные таблицы перейти к описанию временной таблицы"}
-},
-{1,1,
-{"ru","Подменю временные таблицы перейти к описанию временной таблицы"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},6,
-{1,1,
-{"ru","Перейти к описанию временной таблицы"}
-},
-{1,1,
-{"ru","Перейти к описанию временной таблицы"}
-},1},
-{7,6beb7d03-c98f-498f-afea-7fb010e70606,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
-{6,0,00000000-0000-0000-0000-000000000000,85,
-{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,1},
-{7,03fc9b83-6e65-44ce-b0e0-db977b8f9989,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюДействияДобавитьЗапросИзОблака",
-{1,"МенюДействияДобавитьЗапросИзОблака",
-{1,1,
-{"ru","Меню действия добавить запрос из облака"}
-},
-{1,1,
-{"ru","Меню действия добавить запрос из облака"}
-},
-{1,1,
-{"ru","Меню действия добавить запрос из облака"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},15,
-{1,2,
-{"ru_RU","Закрыть файл"},
-{"ru","Добавить запрос из облака"}
-},
-{1,1,
-{"ru","Добавить запрос из облака"}
-},
-{4,3,
-{0},"",-1,-1,0,
-{
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2Fy
-ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgRJREFUeNqkk0tIVFEYx//n3nMz71iL
-nOmhDhaZEkIUET1AaJN7wY3lQmwR1KZlEbQQy1btWkRkm9CNYUtpFoFhECqOjwqF
-O2OIqDOMPZy5No97j9853rmOYbPxwI/vO+d7nvPdy4QQ2M/iX54ypTC220D7Co2h
-i9Saf2LeOS5minV5ieE2caq4kQ6B8PX6cPtIZzKdRrd1BKmUjVfRKp3Ml4jXqtBY
-r5+g79r99w+E40C4EhfCKUDuXSkL21I2OjV49xmJh7pGHdC5fx0VnP1Ljo4Kdot4
-wRJN56AtrzzgBZUmcHKbWJkcAmR14W53oaTwdcY0GDpayL+HbrnI8wU/gbGxZoGb
-xxBsuFr25cNXbl1OzI8a1mj/c57b6cBIxGYRrG1GZj1RNoHODcSiH61MFuO7Ovjz
-6zeO1h9EPrtZNoH9czXxIx5f5hoWuJ3zz03zcB3UC9E9/78Y5uc+x9fTGKPvBHzC
-AhqO07sJLEWG30RKXb8uoVrK5jBSpeeahml606FYEmqsOHMCaD0HnAztOEUaA/jw
-OPNI6q09gSc3FjK+bZECR6KAteYl2HMNhF7ie/6i0s8ak7iZvLPnv0AEidPEeeIC
-0UQcwkAabf0dKsFw96AUE4ScWdzTx4lvsgODqCSqPEw5KdwzOxFiLapMUnzCC/ut
-V1SOaMPDZvv9nbcEGADl3eE+A+im4gAAAABJRU5ErkJggg==}
-},0,""},
-{0,79,24},1},
-{7,5a5946d0-2282-4e1e-93b8-41dc8c566c05,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,75e5226b-f381-45df-bfc2-528e4f06b7e2,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,ff07f775-bf96-4304-b416-336b13a83962,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюДействиеВыгрузитьВсеЗапросыВОблако",
-{1,"МенюДействиеВыгрузитьВсеЗапросыВОблако",
-{1,1,
-{"ru","Меню действие выгрузить все запросы в облако"}
-},
-{1,1,
-{"ru","Меню действие выгрузить все запросы в облако"}
-},
-{1,1,
-{"ru","Меню действие выгрузить все запросы в облако"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},15,
-{1,1,
-{"ru","Выгрузить все запросы в облако"}
-},
-{1,1,
-{"ru","Выгрузить все запросы в облако"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,83,24},1},
-{7,9bb9846a-25e0-480e-830a-7b5248a68cd7,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,cc9a2247-a84d-4990-ae0d-c160a66959b8,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюДействияВыгрузитьТекущийЗапросВОблако",
 {1,"МенюДействияВыгрузитьТекущийЗапросВОблако",
 {1,1,
@@ -585,9 +600,7 @@ V1SOaMPDZvv9nbcEGADl3eE+A+im4gAAAABJRU5ErkJggg==}
 {4,0,
 {0},"",-1,-1,1,0,""},
 {0,0,0},1},
-{7,80b52980-5db4-489b-9f52-8ef33afb6188,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,44100458-8a6e-419c-b5d6-9f6fa5e32411,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,e4b39b02-c52a-4cf7-99e3-af12495c2a73,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюДействиеПараметрыПодключенияКОблаку",
 {1,"МенюДействиеПараметрыПодключенияКОблаку",
 {1,1,
@@ -624,7 +637,70 @@ JKnQundbPLLLFRl+Mv273CC/tttq4URiWjNVVYGusVHMS1dFj5XnRKwpX0HdGL39
 Ix00wu7omAAAAABJRU5ErkJggg==}
 },0,""},
 {0,121,8},1},
-{7,81594fd9-084a-443c-adaf-acdbfd277215,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,07c6678c-5cb6-45d5-9e02-f0b4fcd7dff5,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,47ef050b-e4be-46e1-b35e-a7646351634a,443},3,
+{1,1,
+{"ru","Работа с временными таблицами"}
+},
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2Fy
+ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAbtJREFUeNqcU98rBFEU/u6dS0hpPaJk
+ZZeVRPKo/H7yZP8Jj17ljfKovEgpD579AzxsnqS2LW2EWoVCKSW/1uydGefcuzNN
+pLY908x3z52533e+e+aK4WwWfZkMhBAIgoBxAUAHaosHlRocNAs5mMTTuvNgfX27
+ltWLq6tLKpZbZSEmDvN5bN1RRXz5AfzAJ/QJaUyoG1qQy45Aay3Vf8pzY/8rT+4f
+QxMZEQhVj3LaeYemvFKpSFWPckq+2Qpc11HsgxXmC7YLnucZtd94OtUWKWuaY3Rd
+V0r2oatdmO0VBmeS9uaY7rHv4spelaDy/S0V++AEkDgqBUg2lIHHD9BXmGmmCp4s
+ar81Uibb8IjINRboEa9A339heaDd5PnLS4z19+OkWCTlrkg5kUjAUQpvr6+Nkn3Y
+CmAq4DgrlVC4vkZLUxNOz8+thZjy5s5OLjU+vvHy/Pwo2UdIEO5BprsbQ8kkPstl
+jKbTEUGoTLudo7av0ObucgWOV7UQVnBxe4vizY0ZF66uDP5WVo5j5hX7YNa99Hu1
+2810d/35B2LKa9xWKaUlYDZmreXw0CKjTK2P5kR4EuuNHwEGAFQ3Tyu86aGlAAAA
+AElFTkSuQmCC}
+},0,""},1},
+{7,8bbbb60c-dbab-4859-b488-7bf779108612,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КоманднаяПанельФормыДобавитьЗапросИзОблака",
+{1,"КоманднаяПанельФормыДобавитьЗапросИзОблака",
+{1,1,
+{"ru","Командная панель формы добавить запрос из облака"}
+},
+{1,1,
+{"ru","Командная панель формы добавить запрос из облака"}
+},
+{1,1,
+{"ru","Командная панель формы добавить запрос из облака"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},15,
+{1,2,
+{"ru_RU","Закрыть файл"},
+{"ru","Добавить из облака"}
+},
+{1,1,
+{"ru","Добавить из облака"}
+},
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2Fy
+ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgRJREFUeNqkk0tIVFEYx//n3nMz71iL
+nOmhDhaZEkIUET1AaJN7wY3lQmwR1KZlEbQQy1btWkRkm9CNYUtpFoFhECqOjwqF
+O2OIqDOMPZy5No97j9853rmOYbPxwI/vO+d7nvPdy4QQ2M/iX54ypTC220D7Co2h
+i9Saf2LeOS5minV5ieE2caq4kQ6B8PX6cPtIZzKdRrd1BKmUjVfRKp3Ml4jXqtBY
+r5+g79r99w+E40C4EhfCKUDuXSkL21I2OjV49xmJh7pGHdC5fx0VnP1Ljo4Kdot4
+wRJN56AtrzzgBZUmcHKbWJkcAmR14W53oaTwdcY0GDpayL+HbrnI8wU/gbGxZoGb
+xxBsuFr25cNXbl1OzI8a1mj/c57b6cBIxGYRrG1GZj1RNoHODcSiH61MFuO7Ovjz
+6zeO1h9EPrtZNoH9czXxIx5f5hoWuJ3zz03zcB3UC9E9/78Y5uc+x9fTGKPvBHzC
+AhqO07sJLEWG30RKXb8uoVrK5jBSpeeahml606FYEmqsOHMCaD0HnAztOEUaA/jw
+OPNI6q09gSc3FjK+bZECR6KAteYl2HMNhF7ie/6i0s8ak7iZvLPnv0AEidPEeeIC
+0UQcwkAabf0dKsFw96AUE4ScWdzTx4lvsgODqCSqPEw5KdwzOxFiLapMUnzCC/ut
+V1SOaMPDZvv9nbcEGADl3eE+A+im4gAAAABJRU5ErkJggg==}
+},0,""},
+{0,79,24},1},
+{7,497ef68c-c09a-469d-8802-ce9d39067ada,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюДействияНастройкиПрокси",
 {1,"МенюДействияНастройкиПрокси",
 {1,1,
@@ -664,39 +740,38 @@ iZ9iKt/C/el2lC8SiUQM12dxOByiZH4ul0sR7PV6xVBtNhsxVJjQm0ajcYXYx7cV
 HLtcLo4np9MpEvBTlmVRJsZZVMT9YA183PxjYw9OwA34Ab6BoT5x5zoXYAS+6xrW
 ntz9jf9jPwUYAKt/9B8pRO/yAAAAAElFTkSuQmCC}
 },0,""},1},
-{7,3beb6f8a-c7e5-444b-976b-6c22c068d2a3,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,aeab4a54-8a63-48be-b0c0-d56b45fe1c05,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,e305af4a-7d80-40d2-965d-a23ca59643cc,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюДействияСохранитьЗапросыВФайл",
-{1,"МенюДействияСохранитьЗапросыВФайл",
+{7,b0cd7c94-5715-4a7d-aeef-29eb6a8b88c8,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
+{7,eeaa1ede-7bc4-486b-b1ea-566de229677f,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КоманднаяПанельФормыОткрытьФайл",
+{1,"КоманднаяПанельФормыОткрытьФайл",
 {1,1,
-{"ru","Меню действия сохранить запросы в файл"}
+{"ru","Командная панель формы открыть файл"}
 },
 {1,1,
-{"ru","Меню действия сохранить запросы в файл"}
+{"ru","Командная панель формы открыть файл"}
 },
 {1,1,
-{"ru","Меню действия сохранить запросы в файл"}
+{"ru","Командная панель формы открыть файл"}
 },
 {4,0,
 {0},"",-1,-1,1,0,""},
 {0,0,0}
 }
 },15,
-{1,1,
-{"ru","Сохранить запросы в файл"}
+{1,2,
+{"ru_RU","Закрыть файл"},
+{"ru","Открыть файл запросов"}
 },
 {1,1,
-{"ru","Сохранить запросы в файл"}
+{"ru","Открыть файл запровов"}
 },
 {4,1,
-{0,894cf65b-4109-4533-a1d7-c87b1fcc80a3},"",-1,-1,0,0,""},
-{0,83,8},1},
-{7,4baf438a-b4d1-42e1-ba37-1283c886fd96,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,aaa20ee2-ce71-4644-9616-7e540b3f921b,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,47ef050b-e4be-46e1-b35e-a7646351634a,310},0,1},
-{7,049abe22-d937-4120-8262-432681b85221,1,e1692cc2-605b-4535-84dd-28440238746c,
+{0,785362cb-3756-48ed-87d2-292ded17054a},"",7,2,1,0,""},
+{0,79,12},1},
+{7,2f5f3777-df85-42b8-ad2a-bb5fce1eb4af,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюДействияЗагрузитьВеткуЛокально",
 {1,"МенюДействияЗагрузитьВеткуЛокально",
 {1,1,
@@ -742,93 +817,53 @@ mZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZmZmZkB
 mZkBmZkB}
 },0,""},
 {0,0,0},1},
-{7,8e0b5c39-3d8c-4b53-9518-6ae602936f6f,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,b3d25dfb-c352-4cdc-8cf9-ba8f4a1fe587,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюДействияСохранитьЗапросыВНовыйФайл",
-{1,"МенюДействияСохранитьЗапросыВНовыйФайл",
+{7,baea4ef5-76e4-48ef-bd95-d3331dd36763,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КоманднаяПанельФормыПараметры",
+{1,"КоманднаяПанельФормыПараметры",
 {1,1,
-{"ru","Меню действия сохранить запросы в новый файл"}
+{"ru","Командная панель формы параметры"}
 },
 {1,1,
-{"ru","Меню действия сохранить запросы в новый файл"}
+{"ru","Командная панель формы параметры"}
 },
 {1,1,
-{"ru","Меню действия сохранить запросы в новый файл"}
+{"ru","Командная панель формы параметры"}
 },
 {4,0,
 {0},"",-1,-1,1,0,""},
 {0,0,0}
 }
-},15,
+},11,
 {1,2,
-{"ru_RU","Сохранить как"},
-{"ru","Сохранить запросы в новый файл"}
-},
-{1,1,
-{"ru","Сохранить запросы в новый файл"}
+{"ru_RU","Параметры"},
+{"ru","Параметры запроса"}
 },
 {4,3,
-{0},"",-1,-1,0,
+{0},"",12,2,1,
 {
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+g
-vaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QUdCBgM/uHnfwAAAipJ
-REFUOMuVk8FLVFEUxn/3zbv0vPPEQRhyEYEhhODCRbuMCFctAgmEZiMJw5iQmW2K
-VlKbFpFgNThQCSqNIcYQzEawFr2F0Pg3hKK2sWJyfL55M+/dFuo0g+OiDz7uge+c
-8x3O4UZs26ZarSKEqPEIl4AbgKh7d6iD1hqTJjhqVNBaF7TWd4UQr6SUSCkBuOoN
-00EXAKaUMqGUOs8pKJVKlWg0+lBKuSmlzAJ0eF013ezp6Tk7Nzf37LQG2WyWRCLB
-0NDQBECstxfS/3QzHo8HlmXx+I3BxsZ3tra2ESJKe/sFPj5v5eDgAMuyiMfjgdHZ
-ibDtBgMjFouFSqmm7kopPM9DKcXl/v6UsO0UkHoX3NdX0i0agPHx8VHf9/VpHBsb
-077v66+Oo4Mw1KHW+tbgoD48gsZUSm1PTk7eOXb9vLIy8/TRFNFzEq01+67Lt/V1
-WtvacH0f02w8nCmE+GQYBgDlTZO1QmHm7Ydp0vPzeJ7H3v4+nd3dAOx5HpZlNe7g
-OPA2I/xYOFMT3r9eZDSZ5PrAAKPJJPl8HqTkz065cYLDYoOdBQkENcFZy9MiBCvL
-y7QIwWoux2oud2LR5i8nwm8n0lD8PzB/OgDVpuK9iQdUq4eaaZpMT704kWOEBNSz
-HsWiS/rlNLu7RYpFt6mJUdUV6jmbybC4tASA64YAVCpGLT7x8RLGE0BQoUxFlwkJ
-uDlzUQ+PjHCtr68h+Yvj1OLZTIbbqZT4Cz5u+JQyjclSAAAAAElFTkSuQmCC}
-},0,""},
-{0,83,12},1},
-{7,5b72fbf4-33f9-4c1a-a9c4-ef4e3c9f6ca6,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюДействияСохранитьТекущийЗапросВФайл",
-{1,"МенюДействияСохранитьТекущийЗапросВФайл",
-{1,1,
-{"ru","Меню действия сохранить текущий запрос в файл"}
-},
-{1,1,
-{"ru","Меню действия сохранить текущий запрос в файл"}
-},
-{1,1,
-{"ru","Меню действия сохранить текущий запрос в файл"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},15,
-{1,1,
-{"ru","Сохранить текущий запрос в файл"}
-},
-{1,1,
-{"ru","Сохранить текущий запрос в файл"}
-},
-{4,3,
-{0},"",-1,-1,0,
-{
-{#base64:Qk3mAQAAAAAAADYAAAAoAAAADAAAAAwAAAABABgAAAAAALABAADEDgAAxA4AAAAA
-AAAAAAAAa2tra2trAAAAAAAAAAAAAAAAAAAAAAAAa2tra2tra2tra2tra2trk5OT
-AAAAk5OTAAAAAAAAAAAAAAAAk5OTk5OTk5OTa2tra2trk5OTAAAAk5OTAAAAAAAA
-AAAAAAAAk5OTk5OTk5OTa2tra2trk5OTAAAAAAAAAAAAAAAAAAAAAAAAk5OTk5OT
-k5OTa2tra2trk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTa2tra2trk5OT
-k5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTa2tra2trk5OTAP//////////////
-////////////AP//k5OTa2tra2trk5OTAP//////////////////////////AP//
-k5OTa2tra2trk5OTAP//////////////////////////AP//k5OTa2tra2trk5OT
-AP//////////////////////////AP//k5OTa2tra2trk5OTAP//AP//AP//AP//
-AP//AP//AP//AP//k5OTa2tra2tra2trAMzMAMzMAMzMAMzMAMzMAMzMAMzMAMzM
-a2tra2tr}
+{#base64:Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAA
+AAAAAAAA////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////4eHh////////////////////////////
+////////////////////////0NDQAAAAAAAATU1N0NDQsrKyAAAAfHx86enp////
+////////////////////////TU1NAAAA4eHh////jIyMAAAAjIyM////////////
+////////////////////////AAAAjIyM////////aGhoAAAA4eHh////////////
+////////////////////////jIyMjIyM////vb29AAAAjIyMsrKy////////////
+////////////////////////////fHx8vb29AAAAaGho6enpAAAAp6en////////
+////////////////////////////////aGhoAAAAx8fH////////////////////
+////////////////////////////6enpAAAAmpqap6en0NDQ////////////////
+////////////////////////////4eHhAAAA8PDw////jIyM////////////////
+////////////////////////////////fHx8mpqap6ensrKy////////////////
+////////////////////////////////////4eHh6enp////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////}
 },0,""},
 {0,0,0},1},
-{7,795c2382-1d1e-4584-8c55-a7b45024896f,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,f223b1f5-9803-4601-8be5-4abfef409f20,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,7399e2c2-4f7e-4d46-89ac-8284007524b2,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,987e2723-4770-487a-aea9-92116e745384,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельФормыНовыйФайлЗапросов",
 {1,"КоманднаяПанельФормыНовыйФайлЗапросов",
 {1,1,
@@ -873,9 +908,78 @@ wMDAwMDAwMDAwMDAoKCg////////////////////////////1tbWoKCgwMDAwMDA
 wMDAwMDAwMDAwMDAoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgwMDAwMDAwMDA
 wMDAwMDA}
 },0,""},1},
-{7,f489b654-0c27-40f1-a038-6ad17a8268ca,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,cac538e3-ea33-4eeb-ab37-5ab3d7d02808,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюДействияСохранитьЗапросыВНовыйФайл",
+{1,"МенюДействияСохранитьЗапросыВНовыйФайл",
+{1,1,
+{"ru","Меню действия сохранить запросы в новый файл"}
+},
+{1,1,
+{"ru","Меню действия сохранить запросы в новый файл"}
+},
+{1,1,
+{"ru","Меню действия сохранить запросы в новый файл"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},15,
+{1,2,
+{"ru_RU","Сохранить как"},
+{"ru","Сохранить запросы в новый файл"}
+},
+{1,1,
+{"ru","Сохранить запросы в новый файл"}
+},
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+g
+vaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QUdCBgM/uHnfwAAAipJ
+REFUOMuVk8FLVFEUxn/3zbv0vPPEQRhyEYEhhODCRbuMCFctAgmEZiMJw5iQmW2K
+VlKbFpFgNThQCSqNIcYQzEawFr2F0Pg3hKK2sWJyfL55M+/dFuo0g+OiDz7uge+c
+8x3O4UZs26ZarSKEqPEIl4AbgKh7d6iD1hqTJjhqVNBaF7TWd4UQr6SUSCkBuOoN
+00EXAKaUMqGUOs8pKJVKlWg0+lBKuSmlzAJ0eF013ezp6Tk7Nzf37LQG2WyWRCLB
+0NDQBECstxfS/3QzHo8HlmXx+I3BxsZ3tra2ESJKe/sFPj5v5eDgAMuyiMfjgdHZ
+ibDtBgMjFouFSqmm7kopPM9DKcXl/v6UsO0UkHoX3NdX0i0agPHx8VHf9/VpHBsb
+077v66+Oo4Mw1KHW+tbgoD48gsZUSm1PTk7eOXb9vLIy8/TRFNFzEq01+67Lt/V1
+WtvacH0f02w8nCmE+GQYBgDlTZO1QmHm7Ydp0vPzeJ7H3v4+nd3dAOx5HpZlNe7g
+OPA2I/xYOFMT3r9eZDSZ5PrAAKPJJPl8HqTkz065cYLDYoOdBQkENcFZy9MiBCvL
+y7QIwWoux2oud2LR5i8nwm8n0lD8PzB/OgDVpuK9iQdUq4eaaZpMT704kWOEBNSz
+HsWiS/rlNLu7RYpFt6mJUdUV6jmbybC4tASA64YAVCpGLT7x8RLGE0BQoUxFlwkJ
+uDlzUQ+PjHCtr68h+Yvj1OLZTIbbqZT4Cz5u+JQyjclSAAAAAElFTkSuQmCC}
+},0,""},
+{0,83,12},1},
+{7,cf773be3-300d-42ec-a7c5-a1cf34f5bce3,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюДействияСохранитьЗапросыВФайл",
+{1,"МенюДействияСохранитьЗапросыВФайл",
+{1,1,
+{"ru","Меню действия сохранить запросы в файл"}
+},
+{1,1,
+{"ru","Меню действия сохранить запросы в файл"}
+},
+{1,1,
+{"ru","Меню действия сохранить запросы в файл"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},15,
+{1,1,
+{"ru","Сохранить запросы в файл"}
+},
+{1,1,
+{"ru","Сохранить запросы в файл"}
+},
+{4,1,
+{0,894cf65b-4109-4533-a1d7-c87b1fcc80a3},"",-1,-1,0,0,""},
+{0,83,8},1},
+{7,331e4971-6747-4ade-be7d-3d044edb0c62,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,9482d664-d0f0-47e1-ba5b-715a7b175d22,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,642fe7a8-0250-4a43-8229-4b74158a7790,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельФормыСохранитьЗапросыВФайл",
 {1,"КоманднаяПанельФормыСохранитьЗапросыВФайл",
 {1,1,
@@ -901,49 +1005,9 @@ wMDAwMDA}
 {4,1,
 {0,894cf65b-4109-4533-a1d7-c87b1fcc80a3},"",-1,-1,0,0,""},
 {0,83,8},1},
-{7,abf1a75e-a3e3-4b49-a970-7bbf86766c74,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КоманднаяПанельФормыДобавитьЗапросИзОблака",
-{1,"КоманднаяПанельФормыДобавитьЗапросИзОблака",
-{1,1,
-{"ru","Командная панель формы добавить запрос из облака"}
-},
-{1,1,
-{"ru","Командная панель формы добавить запрос из облака"}
-},
-{1,1,
-{"ru","Командная панель формы добавить запрос из облака"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},15,
-{1,2,
-{"ru_RU","Закрыть файл"},
-{"ru","Добавить из облака"}
-},
-{1,1,
-{"ru","Добавить из облака"}
-},
-{4,3,
-{0},"",-1,-1,0,
-{
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2Fy
-ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgRJREFUeNqkk0tIVFEYx//n3nMz71iL
-nOmhDhaZEkIUET1AaJN7wY3lQmwR1KZlEbQQy1btWkRkm9CNYUtpFoFhECqOjwqF
-O2OIqDOMPZy5No97j9853rmOYbPxwI/vO+d7nvPdy4QQ2M/iX54ypTC220D7Co2h
-i9Saf2LeOS5minV5ieE2caq4kQ6B8PX6cPtIZzKdRrd1BKmUjVfRKp3Ml4jXqtBY
-r5+g79r99w+E40C4EhfCKUDuXSkL21I2OjV49xmJh7pGHdC5fx0VnP1Ljo4Kdot4
-wRJN56AtrzzgBZUmcHKbWJkcAmR14W53oaTwdcY0GDpayL+HbrnI8wU/gbGxZoGb
-xxBsuFr25cNXbl1OzI8a1mj/c57b6cBIxGYRrG1GZj1RNoHODcSiH61MFuO7Ovjz
-6zeO1h9EPrtZNoH9czXxIx5f5hoWuJ3zz03zcB3UC9E9/78Y5uc+x9fTGKPvBHzC
-AhqO07sJLEWG30RKXb8uoVrK5jBSpeeahml606FYEmqsOHMCaD0HnAztOEUaA/jw
-OPNI6q09gSc3FjK+bZECR6KAteYl2HMNhF7ie/6i0s8ak7iZvLPnv0AEidPEeeIC
-0UQcwkAabf0dKsFw96AUE4ScWdzTx4lvsgODqCSqPEw5KdwzOxFiLapMUnzCC/ut
-V1SOaMPDZvv9nbcEGADl3eE+A+im4gAAAABJRU5ErkJggg==}
-},0,""},
-{0,79,24},1},
-{7,ce95195b-954b-4f3a-b29f-eb006008d137,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,c2b49df4-7301-481f-9511-140b37635606,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
+{7,85b5af0d-a61c-4071-8329-ce0ee36e7382,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельФормыПеренестиСтрокуДерева",
 {1,"КоманднаяПанельФормыПеренестиСтрокуДерева",
 {1,1,
@@ -988,12 +1052,9 @@ wMDAwMDAwMDAwMDAwMDAwMDAwMDAmQAAwMDAwMDAwMDAwMDAmQAAwMDAwMDAwMDA
 wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAmQAAmQAAmQAAmQAAwMDAwMDAwMDAwMDA
 wMDAwMDA}
 },0,""},1},
-{7,ab91a5ee-4506-4688-b86e-11568f13239c,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
-{6,0,00000000-0000-0000-0000-000000000000,86,
-{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,1},
-{7,d499e7ab-e071-4152-9dc4-8a08733a8b16,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,7f247492-b0ab-4bde-8248-1a318d6d7197,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
-{7,fead5f6b-26b0-4193-ba98-ef1b1a1bb0ad,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,74e402e9-712a-4657-ac4d-b5ed52317673,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельФормыЗаполнитьПараметрыИзЗапроса",
 {1,"КоманднаяПанельФормыЗаполнитьПараметрыИзЗапроса",
 {1,1,
@@ -1019,7 +1080,9 @@ wMDAwMDA}
 {4,1,
 {0,dcd23a32-5c7c-43f2-9021-80d98128556f},"",-1,-1,1,0,""},
 {0,51,16},1},
-{7,e697eadf-d48f-4aa7-8932-a1883c0e0cb3,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,72aa78e0-965a-42c1-b187-d824b7e91c61,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},
+{7,2f21abca-b0e3-4400-8fec-c252f2306517,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,47ef050b-e4be-46e1-b35e-a7646351634a,364},7,
 {1,1,
 {"ru","Прочие запросы"}
@@ -1042,88 +1105,25 @@ Bnln9erVR3V1dUNQDUDSDJIwNzf3ARpSunv3rv8gQ86cAbvky5w5c04ANdfIysqK
 19ev1tHR8Sc6UQJtC7S1te08dOjIf2Nj42Y1NbVAQpoB39KxXb8H56kAAAAASUVO
 RK5CYII=}
 },0,""},1},
-{7,7b30fa36-9e81-40ba-8668-6ded8e21ea78,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КоманднаяПанельФормыПараметры",
-{1,"КоманднаяПанельФормыПараметры",
-{1,1,
-{"ru","Командная панель формы параметры"}
-},
-{1,1,
-{"ru","Командная панель формы параметры"}
-},
-{1,1,
-{"ru","Командная панель формы параметры"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},11,
-{1,2,
-{"ru_RU","Параметры"},
-{"ru","Параметры запроса"}
-},
-{4,3,
-{0},"",12,2,1,
-{
-{#base64:Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAA
-AAAAAAAA////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////
-////////////////////////////////4eHh////////////////////////////
-////////////////////////0NDQAAAAAAAATU1N0NDQsrKyAAAAfHx86enp////
-////////////////////////TU1NAAAA4eHh////jIyMAAAAjIyM////////////
-////////////////////////AAAAjIyM////////aGhoAAAA4eHh////////////
-////////////////////////jIyMjIyM////vb29AAAAjIyMsrKy////////////
-////////////////////////////fHx8vb29AAAAaGho6enpAAAAp6en////////
-////////////////////////////////aGhoAAAAx8fH////////////////////
-////////////////////////////6enpAAAAmpqap6en0NDQ////////////////
-////////////////////////////4eHhAAAA8PDw////jIyM////////////////
-////////////////////////////////fHx8mpqap6ensrKy////////////////
-////////////////////////////////////4eHh6enp////////////////////
-////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////
-////////}
-},0,""},
-{0,0,0},1},
-{7,c5bf3769-3a2d-445c-9dd7-61b3f429c9f4,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,47ef050b-e4be-46e1-b35e-a7646351634a,443},3,
-{1,1,
-{"ru","Работа с временными таблицами"}
-},
-{4,3,
-{0},"",-1,-1,0,
-{
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2Fy
-ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAbtJREFUeNqcU98rBFEU/u6dS0hpPaJk
-ZZeVRPKo/H7yZP8Jj17ljfKovEgpD579AzxsnqS2LW2EWoVCKSW/1uydGefcuzNN
-pLY908x3z52533e+e+aK4WwWfZkMhBAIgoBxAUAHaosHlRocNAs5mMTTuvNgfX27
-ltWLq6tLKpZbZSEmDvN5bN1RRXz5AfzAJ/QJaUyoG1qQy45Aay3Vf8pzY/8rT+4f
-QxMZEQhVj3LaeYemvFKpSFWPckq+2Qpc11HsgxXmC7YLnucZtd94OtUWKWuaY3Rd
-V0r2oatdmO0VBmeS9uaY7rHv4spelaDy/S0V++AEkDgqBUg2lIHHD9BXmGmmCp4s
-ar81Uibb8IjINRboEa9A339heaDd5PnLS4z19+OkWCTlrkg5kUjAUQpvr6+Nkn3Y
-CmAq4DgrlVC4vkZLUxNOz8+thZjy5s5OLjU+vvHy/Pwo2UdIEO5BprsbQ8kkPstl
-jKbTEUGoTLudo7av0ObucgWOV7UQVnBxe4vizY0ZF66uDP5WVo5j5hX7YNa99Hu1
-2810d/35B2LKa9xWKaUlYDZmreXw0CKjTK2P5kR4EuuNHwEGAFQ3Tyu86aGlAAAA
-AElFTkSuQmCC}
-},0,""},1},8,
-{5,47ef050b-e4be-46e1-b35e-a7646351634a,310,0,6,eb44b915-3dda-4e89-b64b-f2f3753381d3,
+{7,f68ad0d7-786c-44a4-93f9-c4990c91443f,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,1},8,
+{5,47ef050b-e4be-46e1-b35e-a7646351634a,310,0,6,d0950a1d-f5ad-4e5f-8382-dd9e3a21f04e,
 {8,"Локально",0,1,
 {1,1,
 {"ru","Локально"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,482,1e2,1,0,1,0,0,0,0},7c144286-294a-4b46-a925-1ca8e9acb799,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,482,1e2,1,0,1,0,0,0,0},eb52ad49-b880-431d-8f19-301ddd5c9c22,
 {8,"Разделитель6",0,6,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,460,1e2,2,0,1,0,0,0,0},92ccff6d-7226-43e1-b644-3d713fbff00b,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,460,1e2,2,0,1,0,0,0,0},274987b2-a22f-4907-9ff6-c7a3fd02603d,
 {8,"ДействиясОблаком",0,1,
 {1,1,
 {"ru","Облако"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,471,1e2,1,0,1,0,0,0,0},8c916efa-14cf-4c0c-888a-47d62e5df220,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,471,1e2,1,0,1,0,0,0,0},363b8f6d-c39a-43e9-b21a-f1409e9398a8,
 {8,"Разделитель1",0,7,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,463,1e2,2,0,1,0,0,0,0},e51514fe-5df9-49e6-b669-3b889da775fb,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,463,1e2,2,0,1,0,0,0,0},18984246-40a5-4cb7-a7ab-9d8cc00d233c,
 {8,"НастройкаАвтосохранения",0,2,
 {1,1,
 {"ru","Настройка автосохранения"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,315,1e2,0,0,1,0,0,0,0},f15e3d1d-9132-4de6-a39e-342718a19b6a,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,315,1e2,0,0,1,0,0,0,0},85191c98-4375-4b23-9b04-3b702b3d7419,
 {8,"СравнитьЗапросы",0,2,
 {1,1,
 {"ru","Сравнить запросы"}
@@ -1132,19 +1132,19 @@ AElFTkSuQmCC}
 {2,47ef050b-e4be-46e1-b35e-a7646351634a,482,0,47ef050b-e4be-46e1-b35e-a7646351634a,471,0}
 }
 },
-{5,47ef050b-e4be-46e1-b35e-a7646351634a,364,0,4,821a6ea0-23e5-4f03-b42b-72b6b218f7b6,
+{5,47ef050b-e4be-46e1-b35e-a7646351634a,364,0,4,c9ebca41-bfbc-406e-9802-983fd1a1c313,
 {8,"ВыполнитьПакет",0,1,
 {1,1,
 {"ru","Выполнить пакет"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,396,1e2,0,0,1,0,0,0,0},dd69ec37-aacb-43ed-8d47-c3a72c9e0b97,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,396,1e2,0,0,1,0,0,0,0},f608ca53-98d1-458d-a5ee-27be1b0f123a,
 {8,"Разделитель",0,1,
 {1,1,
 {"ru","Действие"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,397,1e2,2,0,1,0,0,0,0},b663dbac-a232-478c-ba87-c242e952e9b5,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,397,1e2,2,0,1,0,0,0,0},d2d5dbac-5704-442c-9c6b-bba9ba0bd316,
 {8,"ВыполнитьЗапросПоСпискуИБ",0,2,
 {1,1,
 {"ru","Выполнить запрос по списку ИБ"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,389,1e2,0,3,1,0,0,0,0},a63a75fc-94e5-43d6-ac39-f26510a6e142,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,389,1e2,0,3,1,0,0,0,0},8c57a933-d910-4ffb-bea1-e062de8fa9ed,
 {8,"ПараметрыИБ",0,2,
 {1,1,
 {"ru","Параметры ИБ"}
@@ -1153,29 +1153,29 @@ AElFTkSuQmCC}
 {0}
 }
 },
-{5,47ef050b-e4be-46e1-b35e-a7646351634a,443,0,7,aed5b00b-8327-4834-b3a8-6a761d3b74d6,
+{5,47ef050b-e4be-46e1-b35e-a7646351634a,443,0,7,45d5c8df-096c-4da0-901c-f4707096abda,
 {8,"ИспользоватьМенеджерВременныхТаблиц",0,4,
 {1,1,
 {"ru","Использовать менеджер временных таблиц"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,444,1e2,0,0,1,1,0,0,0},310f78e5-a4ab-45a5-9db9-b6dd50df7225,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,444,1e2,0,0,1,1,0,0,0},edb71493-5a8b-4d47-95d8-a6f7dd154f1f,
 {8,"Разделитель",0,4,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,445,1e2,2,0,1,0,0,0,0},29e7b9ef-1102-4995-82c0-b1d9bc5f28ae,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,445,1e2,2,0,1,0,0,0,0},04d33f06-8f62-4cb2-9ba9-d353924ed1b2,
 {8,"ПоказатьВременнуюТаблицу",0,4,
 {1,1,
 {"ru","Показать временную таблицу"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,446,1e2,1,0,1,0,0,0,0},58842251-f0b0-4192-8b8c-67f8672c2bf8,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,446,1e2,1,0,1,0,0,0,0},2c1a4550-63e7-45ba-92aa-0cefbaab7532,
 {8,"УдалитьВременнуюТаблицу",0,4,
 {1,1,
 {"ru","Удалить временную таблицу"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,448,1e2,1,0,1,0,0,0,0},cb3b761a-66ae-4101-a2ce-2dd92a6e7de2,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,448,1e2,1,0,1,0,0,0,0},f2a3569b-5483-4c4a-8d2b-38d10e0af2c9,
 {8,"Разделитель1",0,3,
 {1,1,
 {"ru","Действие"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,450,1e2,2,0,1,0,0,0,0},7b9acd08-e7fb-4402-8398-87acb970dd21,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,450,1e2,2,0,1,0,0,0,0},69081e80-f060-43af-91aa-a427c7789528,
 {8,"ПоказатьВыделеннуюВременнуюТаблицу",0,3,
 {1,1,
 {"ru","Показать выделенную временную таблицу"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,451,1e2,0,0,1,0,0,0,0},819e624d-68bd-4c98-8955-7c6b9ffd6da2,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,451,1e2,0,0,1,0,0,0,0},970a7a7f-8a69-4b6e-88d4-15e722609cb8,
 {8,"ПерейтиКОписаниюВременнойТаблицы",0,5,
 {1,1,
 {"ru","Перейти к описанию временной таблицы"}
@@ -1194,60 +1194,60 @@ AElFTkSuQmCC}
 {0}
 }
 },
-{5,47ef050b-e4be-46e1-b35e-a7646351634a,472,0,8,03fc9b83-6e65-44ce-b0e0-db977b8f9989,
+{5,47ef050b-e4be-46e1-b35e-a7646351634a,472,0,8,39f14eac-5bd9-43f4-a663-be2fd0fb6f12,
 {8,"ДобавитьЗапросИзОблака",0,5,
 {1,2,
 {"ru_RU","ЗакрытьФайл"},
 {"ru","Добавить запрос из облака"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,473,1e2,0,0,1,0,0,0,0},5a5946d0-2282-4e1e-93b8-41dc8c566c05,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,473,1e2,0,0,1,0,0,0,0},75e5226b-f381-45df-bfc2-528e4f06b7e2,
 {8,"Разделитель",0,4,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,491,1e2,2,0,1,0,0,0,0},ff07f775-bf96-4304-b416-336b13a83962,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,491,1e2,2,0,1,0,0,0,0},54591350-140b-4ae5-a89e-eb772099afc4,
 {8,"ВыгрузитьВсеЗапросыВОблако",0,4,
 {1,1,
 {"ru","Выгрузить все запросы в облако"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,490,1e2,0,0,1,0,0,0,0},9bb9846a-25e0-480e-830a-7b5248a68cd7,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,490,1e2,0,0,1,0,0,0,0},cc9a2247-a84d-4990-ae0d-c160a66959b8,
 {8,"ВыгрузитьТекущийЗапросВОблако",0,3,
 {1,1,
 {"ru","Выгрузить текущий запрос в облако"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,474,1e2,0,0,1,0,0,0,0},80b52980-5db4-489b-9f52-8ef33afb6188,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,474,1e2,0,0,1,0,0,0,0},c8187153-bacc-491e-a1db-232131f2c3a2,
 {8,"Разделитель2",0,3,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,475,1e2,2,0,1,0,0,0,0},44100458-8a6e-419c-b5d6-9f6fa5e32411,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,475,1e2,2,0,1,0,0,0,0},e4b39b02-c52a-4cf7-99e3-af12495c2a73,
 {8,"ПараметрыПодключенияКОблаку",0,3,
 {1,1,
 {"ru","Параметры подключения к облаку"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,479,1e2,0,0,1,0,0,0,0},81594fd9-084a-443c-adaf-acdbfd277215,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,479,1e2,0,0,1,0,0,0,0},497ef68c-c09a-469d-8802-ce9d39067ada,
 {8,"НастройкиПрокси",0,2,
 {1,1,
 {"ru","Настройки прокси"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,480,1e2,0,0,0,0,0,0,0},4baf438a-b4d1-42e1-ba37-1283c886fd96,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,480,1e2,0,0,0,0,0,0,0},b0cd7c94-5715-4a7d-aeef-29eb6a8b88c8,
 {8,"Разделитель7",0,9,
 {1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,481,1e2,2,0,1,0,0,0,0},
 {-1,0,
 {0}
 }
 },
-{5,47ef050b-e4be-46e1-b35e-a7646351634a,483,0,6,16ed4895-c36a-45e2-9af4-219b5460f49c,
+{5,47ef050b-e4be-46e1-b35e-a7646351634a,483,0,6,eeaa1ede-7bc4-486b-b1ea-566de229677f,
 {8,"ОткрытьФайл",0,7,
 {1,2,
 {"ru_RU","ЗакрытьФайл"},
 {"ru","Открыть файл запросов"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,493,1e2,0,0,1,0,0,0,0},049abe22-d937-4120-8262-432681b85221,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,493,1e2,0,0,1,0,0,0,0},2f5f3777-df85-42b8-ad2a-bb5fce1eb4af,
 {8,"ЗагрузитьВеткуЛокально",0,4,
 {1,1,
 {"ru","Загрузить ветку (локально)"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,487,1e2,0,0,1,0,0,0,0},8e0b5c39-3d8c-4b53-9518-6ae602936f6f,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,487,1e2,0,0,1,0,0,0,0},f223b1f5-9803-4601-8be5-4abfef409f20,
 {8,"Разделитель",0,3,
 {1,1,
 {"ru","Действие"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,485,1e2,2,0,1,0,0,0,0},e305af4a-7d80-40d2-965d-a23ca59643cc,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,485,1e2,2,0,1,0,0,0,0},cf773be3-300d-42ec-a7c5-a1cf34f5bce3,
 {8,"СохранитьЗапросыВФайлНачало",0,2,
 {1,1,
 {"ru","Сохранить запросы в файл"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,494,1e2,0,0,1,0,0,0,0},b3d25dfb-c352-4cdc-8cf9-ba8f4a1fe587,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,494,1e2,0,0,1,0,0,0,0},cac538e3-ea33-4eeb-ab37-5ab3d7d02808,
 {8,"СохранитьЗапросыВНовыйФайл",0,5,
 {1,1,
 {"ru","Сохранить запросы в новый файл"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,484,1e2,0,0,1,0,0,0,0},5b72fbf4-33f9-4c1a-a9c4-ef4e3c9f6ca6,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,484,1e2,0,0,1,0,0,0,0},18dec941-00e1-450c-a0e6-19c847ae5751,
 {8,"СохранитьТекущийЗапросВФайл",0,5,
 {1,1,
 {"ru","Сохранить текущий запрос в файл"}
@@ -1256,70 +1256,70 @@ AElFTkSuQmCC}
 {0}
 }
 },
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,19,aaa20ee2-ce71-4644-9616-7e540b3f921b,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,19,7286f7dd-9a6f-4602-abe9-2d8595497e39,
 {8,"МенюДействия",0,18,
 {1,1,
 {"ru","Действия"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,309,1e2,1,0,1,0,0,0,0},7399e2c2-4f7e-4d46-89ac-8284007524b2,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,309,1e2,1,0,1,0,0,0,0},987e2723-4770-487a-aea9-92116e745384,
 {8,"НовыйФайлЗапросов",0,3,
 {1,1,
 {"ru","Новый файл запросов"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,354,1e2,0,0,1,0,0,0,0},f489b654-0c27-40f1-a038-6ad17a8268ca,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,354,1e2,0,0,1,0,0,0,0},331e4971-6747-4ade-be7d-3d044edb0c62,
 {8,"Разделитель2",0,4,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,429,1e2,2,0,1,0,0,0,0},88d3498d-0d4e-443d-b4ac-98838c10674b,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,429,1e2,2,0,1,0,0,0,0},126ddd2b-e8dc-4198-8a27-46366abe10ff,
 {8,"ОткрытьФайл",0,6,
 {1,2,
 {"ru_RU","ЗакрытьФайл"},
 {"ru","Открыть файл запросов"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,427,1e2,0,0,1,0,0,0,0},9482d664-d0f0-47e1-ba5b-715a7b175d22,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,427,1e2,0,0,1,0,0,0,0},642fe7a8-0250-4a43-8229-4b74158a7790,
 {8,"СохранитьЗапросыВФайлНачало",0,1,
 {1,1,
 {"ru","Сохранить запросы в файл"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,413,1e2,0,0,1,0,0,0,0},3beb6f8a-c7e5-444b-976b-6c22c068d2a3,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,413,1e2,0,0,1,0,0,0,0},c2b49df4-7301-481f-9511-140b37635606,
 {8,"Разделитель3",0,4,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,489,1e2,2,0,1,0,0,0,0},abf1a75e-a3e3-4b49-a970-7bbf86766c74,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,489,1e2,2,0,1,0,0,0,0},8bbbb60c-dbab-4859-b488-7bf779108612,
 {8,"ДобавитьЗапросИзОблака",0,6,
 {1,2,
 {"ru_RU","ЗакрытьФайл"},
 {"ru","Добавить из облака"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,488,1e2,0,0,1,0,0,0,0},9a7d49af-8fa6-408b-a145-4859ac5e1354,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,488,1e2,0,0,1,0,0,0,0},aeab4a54-8a63-48be-b0c0-d56b45fe1c05,
 {8,"Разделитель7",0,3,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,415,1e2,2,0,1,0,0,0,0},ce95195b-954b-4f3a-b29f-eb006008d137,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,415,1e2,2,0,1,0,0,0,0},85b5af0d-a61c-4071-8329-ce0ee36e7382,
 {8,"ПеренестиСтрокуДерева",0,1,
 {1,1,
 {"ru","Перенести строку"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,255,1e2,0,0,1,0,0,0,0},6beb7d03-c98f-498f-afea-7fb010e70606,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,255,1e2,0,0,1,0,0,0,0},26e001c0-1bd9-471e-b02f-a6560ac43bc3,
 {8,"Действие8",1,1,
 {1,1,
 {"#","Действие8"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,239,1e2,0,0,1,0,0,0,0},ab91a5ee-4506-4688-b86e-11568f13239c,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,239,1e2,0,0,1,0,0,0,0},7da769ac-2404-4db2-a400-212d5a6f3d4a,
 {8,"Действие9",1,1,
 {1,1,
 {"#","Действие9"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,241,1e2,0,0,1,0,0,0,0},eaf03c9d-b9e5-4c35-9468-8b6fc4cc5f56,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,241,1e2,0,0,1,0,0,0,0},7f247492-b0ab-4bde-8248-1a318d6d7197,
 {8,"Разделитель1",0,1,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,12,1e2,2,0,1,0,0,0,0},fead5f6b-26b0-4193-ba98-ef1b1a1bb0ad,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,12,1e2,2,0,1,0,0,0,0},74e402e9-712a-4657-ac4d-b5ed52317673,
 {8,"ЗаполнитьПараметрыИзЗапроса",0,1,
 {1,1,
 {"ru","Получить параметры из запроса"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,345,1e2,0,2,1,0,0,0,0},d499e7ab-e071-4152-9dc4-8a08733a8b16,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,345,1e2,0,2,1,0,0,0,0},72aa78e0-965a-42c1-b187-d824b7e91c61,
 {8,"Разделитель4",0,3,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,497,1e2,2,0,1,0,0,0,0},0ac97bbc-e999-4652-912c-6d0b02f3c37c,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,497,1e2,2,0,1,0,0,0,0},1e29402b-e0e0-48b2-b747-584c73a68763,
 {8,"ВыполнитьЗапрос",0,1,
 {1,1,
 {"ru","Выполнить"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,1,1e2,0,3,1,0,0,0,0},e697eadf-d48f-4aa7-8932-a1883c0e0cb3,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,1,1e2,0,3,1,0,0,0,0},2f21abca-b0e3-4400-8fec-c252f2306517,
 {8,"МенюВыполнить",0,2,
 {1,1,
 {"ru","Прочие запросы"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,363,1e2,1,0,1,0,0,0,0},795c2382-1d1e-4584-8c55-a7b45024896f,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,363,1e2,1,0,1,0,0,0,0},f68ad0d7-786c-44a4-93f9-c4990c91443f,
 {8,"Разделитель",0,2,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,349,1e2,2,0,1,0,0,0,0},7b30fa36-9e81-40ba-8668-6ded8e21ea78,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,349,1e2,2,0,1,0,0,0,0},baea4ef5-76e4-48ef-bd95-d3331dd36763,
 {8,"Параметры",0,1,
 {1,2,
 {"ru_RU","Параметры"},
 {"ru","П&араметры"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,4,1e2,0,3,1,0,0,0,0},c5bf3769-3a2d-445c-9dd7-61b3f429c9f4,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,4,1e2,0,3,1,0,0,0,0},07c6678c-5cb6-45d5-9e02-f0b4fcd7dff5,
 {8,"ПодменюВременныеТаблицы",0,4,
 {1,1,
 {"ru","Работа с временными таблицами"}
@@ -1840,7 +1840,62 @@ AElFTkSuQmCC}
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
 {1,0},0,0,100,0,0},9,1,0,0,1,1,
 {5,47ef050b-e4be-46e1-b35e-a7646351634a,386,1,26,
-{7,1de08862-13ba-4eab-8756-ad5f39748561,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,176c4e7b-22c5-4313-9ec0-9464951bde0f,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюАгрегатныеФункции",
+{1,"МенюАгрегатныеФункции",
+{1,0},
+{1,0},
+{1,0},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},0,2},
+{7,6771503b-4634-4010-a103-798b446a707a,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюСпискаЗапросовВыгрузитьТекущийЗапросВОблако",
+{1,"МенюСпискаЗапросовВыгрузитьТекущийЗапросВОблако",
+{1,1,
+{"ru","Меню списка запросов выгрузить текущий запрос в облако"}
+},
+{1,1,
+{"ru","Меню списка запросов выгрузить текущий запрос в облако"}
+},
+{1,1,
+{"ru","Меню списка запросов выгрузить текущий запрос в облако"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},15,
+{1,1,
+{"ru","Выгрузить текущий запрос в облако"}
+},
+{1,1,
+{"ru","Выгрузить текущий запрос в облако"}
+},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0},2},
+{7,e4416cfb-672b-4a6b-96de-350782424ebb,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,4294967295,00000000-0000-0000-0000-000000000000,80,
+{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
+{7,08c8307b-4be9-43c7-b353-b4019483cb18,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,0,00000000-0000-0000-0000-000000000000,88,
+{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
+{7,99539f38-e9c7-4328-a6fe-e288c52e72b3,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,0,00000000-0000-0000-0000-000000000000,89,
+{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
+{7,8346d0d0-3c1b-455f-9203-c98e55d200c6,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,4294967295,00000000-0000-0000-0000-000000000000,84,
+{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
+{7,18bbd92a-81c6-4732-a1b3-7f929dabe471,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,4294967295,00000000-0000-0000-0000-000000000000,83,
+{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
+{7,c9eed5d6-94c4-4d44-9dd0-02f30760e41c,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,4294967295,00000000-0000-0000-0000-000000000000,82,
+{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
+{7,1e7929a7-a559-41fc-966e-80336dd6d28f,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюСпискаЗапросовЗагрузитьВетку",
 {1,"МенюСпискаЗапросовЗагрузитьВетку",
 {1,1,
@@ -1886,53 +1941,13 @@ mZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZkBmZmZmZkB
 mZkBmZkB}
 },0,""},
 {0,0,0},2},
-{7,63e9232a-732d-4930-8f2f-7261d3d31d6a,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюАгрегатныеФункции",
-{1,"МенюАгрегатныеФункции",
-{1,0},
-{1,0},
-{1,0},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},0,2},
-{7,8fb792aa-fc49-4ba5-b397-b2075007b782,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
-{6,4294967295,00000000-0000-0000-0000-000000000000,80,
-{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
-{7,96b8b517-642c-4114-8ab1-a3d3a289d6c5,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
-{6,4294967295,00000000-0000-0000-0000-000000000000,84,
-{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
-{7,25c74c54-3f5d-4ae2-b21a-d042e1287387,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
-{6,4294967295,00000000-0000-0000-0000-000000000000,83,
-{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
-{7,307083ee-f6f8-4335-95a1-19bf751692fe,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
-{6,4294967295,00000000-0000-0000-0000-000000000000,82,
-{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
-{7,55f22bee-f9b3-4471-87f7-b27e527bb7c5,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,fde75557-b6ec-426a-829a-1fd9100ab96a,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,2},
-{7,347325a1-deb2-46fa-b818-e4de8d266868,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
-{6,0,00000000-0000-0000-0000-000000000000,88,
-{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
-{7,ee68ab01-d32e-4429-8b11-b74d980e915f,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,890a2fc9-ba51-495e-92ec-48dcfd2b60aa,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,47ef050b-e4be-46e1-b35e-a7646351634a,235},0,2},
+{7,9db82b09-b258-4bd0-97e2-d136f134dcb9,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,2},
-{7,64f359c1-6224-4700-8038-ca28070f038c,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,2},
-{7,57081868-fc00-443f-bd7f-e4d3ee3679ab,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
-{6,0,00000000-0000-0000-0000-000000000000,89,
-{1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0,2},
-{7,894b9195-62f9-457f-8513-8b9a461c862c,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюАгрегатныеФункции",
-{1,"МенюАгрегатныеФункции",
-{1,0},
-{1,0},
-{1,0},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},0,2},
-{7,cf532fd5-aae0-4ff9-af2e-c7c73f4b9714,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,555e65a3-4d61-4f45-b8f8-37c81b22a331,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюСпискаЗапросовСохранитьТекущийЗапросВФайл",
 {1,"МенюСпискаЗапросовСохранитьТекущийЗапросВФайл",
 {1,1,
@@ -1971,48 +1986,11 @@ AP//AP//AP//AP//k5OTa2tra2tra2trAMzMAMzMAMzMAMzMAMzMAMzMAMzMAMzM
 a2tra2tr}
 },0,""},
 {0,0,0},2},
-{7,b3695e3e-9b9f-4c21-acde-6bb9baf900e7,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,1b1dc6ff-15d9-4738-bb9d-5af31fc0d926,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,2},
-{7,79ce231e-477f-4ac9-8758-a76d4b854a0b,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюСпискаЗапросовВыгрузитьТекущийЗапросВОблако",
-{1,"МенюСпискаЗапросовВыгрузитьТекущийЗапросВОблако",
-{1,1,
-{"ru","Меню списка запросов выгрузить текущий запрос в облако"}
-},
-{1,1,
-{"ru","Меню списка запросов выгрузить текущий запрос в облако"}
-},
-{1,1,
-{"ru","Меню списка запросов выгрузить текущий запрос в облако"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},15,
-{1,1,
-{"ru","Выгрузить текущий запрос в облако"}
-},
-{1,1,
-{"ru","Выгрузить текущий запрос в облако"}
-},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0},2},
-{7,6d50eeb7-6403-4d80-8cb4-a7410a12e22b,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,c807383d-df78-4c1d-91ae-5cf9c05c4f18,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,2},
-{7,a1e02813-3c85-497c-b8ee-33a0656d8e90,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"МенюАгрегатныеФункции",
-{1,"МенюАгрегатныеФункции",
-{1,0},
-{1,0},
-{1,0},
-{4,0,
-{0},"",-1,-1,1,0,""},
-{0,0,0}
-}
-},0,2},
-{7,149cda93-89da-491c-9676-23b45700e63d,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,33c9a620-02dd-4c96-8116-32c62c561f08,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюСпискаЗапросовСравнитьЗапросы",
 {1,"МенюСпискаЗапросовСравнитьЗапросы",
 {1,1,
@@ -2037,7 +2015,9 @@ a2tra2tr}
 },
 {4,1,
 {0,3bdc16c8-6a96-4467-9442-a8e4804b3fa2},"",-1,-1,1,0,""},2},
-{7,a31c657a-b867-44dc-9d6b-b5022d3221af,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,442e60a9-6b7b-47fe-b637-27005d473966,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,2},
+{7,062a61d8-6ca5-42e7-b2f5-8942246860aa,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюСпискаЗапросовСтрокаНаТомжеУровне",
 {1,"МенюСпискаЗапросовСтрокаНаТомжеУровне",
 {1,1,
@@ -2063,7 +2043,7 @@ a2tra2tr}
 {4,1,
 {0,9c96aa25-d656-4b3d-ab3e-81d9718da238},"",-1,-1,1,0,""},
 {0,78,12},2},
-{7,62e8421b-4f13-4075-b477-f0bb696e8d57,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,a47d1e94-2027-410e-82ae-277065d4c2a2,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюАгрегатныеФункции",
 {1,"МенюАгрегатныеФункции",
 {1,0},
@@ -2074,11 +2054,9 @@ a2tra2tr}
 {0,0,0}
 }
 },0,2},
-{7,d0905ca6-3696-461a-8641-a6731c05fa83,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,2ab01b77-019f-4dc0-8e0e-835e9bf276b3,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0,2},
-{7,773d9f85-ac0b-47bf-85a2-42dc086245b1,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,47ef050b-e4be-46e1-b35e-a7646351634a,235},0,2},
-{7,f5b5a5c5-87e5-44a2-abee-f56d81095d0d,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,6fd66611-9b80-4f88-be11-fd531dcc4bf9,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюАгрегатныеФункции",
 {1,"МенюАгрегатныеФункции",
 {1,0},
@@ -2089,7 +2067,7 @@ a2tra2tr}
 {0,0,0}
 }
 },0,2},
-{7,3433b9f9-93cb-4dda-a338-8622d51990e5,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,dd642d91-41b7-4021-9933-b7962c9a66d8,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюАгрегатныеФункции",
 {1,"МенюАгрегатныеФункции",
 {1,0},
@@ -2100,7 +2078,7 @@ a2tra2tr}
 {0,0,0}
 }
 },0,2},
-{7,4b0e8c63-9f78-45d5-9d3e-5e2c9552a207,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,142e72c5-ac74-4e83-91ed-c21b24cfdb23,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюАгрегатныеФункции",
 {1,"МенюАгрегатныеФункции",
 {1,0},
@@ -2111,63 +2089,85 @@ a2tra2tr}
 {0,0,0}
 }
 },0,2},
-{7,accf8006-e2e6-4f32-98fb-4308c87dee44,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,3e0125b2-8f23-45fa-a2d7-29a9a55bca31,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюАгрегатныеФункции",
+{1,"МенюАгрегатныеФункции",
+{1,0},
+{1,0},
+{1,0},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},0,2},
+{7,522cdef5-3ed8-4014-a9d5-be8469271b63,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"МенюАгрегатныеФункции",
+{1,"МенюАгрегатныеФункции",
+{1,0},
+{1,0},
+{1,0},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{0,0,0}
+}
+},0,2},
+{7,5a2b7b39-5145-4c55-add3-ae1721aed277,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,47ef050b-e4be-46e1-b35e-a7646351634a,371},0,2},3,
-{5,47ef050b-e4be-46e1-b35e-a7646351634a,235,0,16,8fb792aa-fc49-4ba5-b397-b2075007b782,
+{5,47ef050b-e4be-46e1-b35e-a7646351634a,235,0,16,e4416cfb-672b-4a6b-96de-350782424ebb,
 {8,"Действие2",0,2,
 {1,1,
 {"#","Действие2"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,244,1e2,0,0,1,0,0,0,0},96b8b517-642c-4114-8ab1-a3d3a289d6c5,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,244,1e2,0,0,1,0,0,0,0},8346d0d0-3c1b-455f-9203-c98e55d200c6,
 {8,"Действие5",0,2,
 {1,1,
 {"#","Действие5"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,246,1e2,0,0,1,0,0,0,0},25c74c54-3f5d-4ae2-b21a-d042e1287387,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,246,1e2,0,0,1,0,0,0,0},18bbd92a-81c6-4732-a1b3-7f929dabe471,
 {8,"Действие4",0,2,
 {1,1,
 {"#","Действие4"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,248,1e2,0,0,1,0,0,0,0},307083ee-f6f8-4335-95a1-19bf751692fe,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,248,1e2,0,0,1,0,0,0,0},c9eed5d6-94c4-4d44-9dd0-02f30760e41c,
 {8,"Действие3",0,2,
 {1,1,
 {"#","Действие3"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,252,1e2,0,0,1,0,0,0,0},64f359c1-6224-4700-8038-ca28070f038c,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,252,1e2,0,0,1,0,0,0,0},fde75557-b6ec-426a-829a-1fd9100ab96a,
 {8,"Разделитель2",0,2,
 {1,1,
 {"ru","Действие"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,363,1e2,2,0,1,0,0,0,0},347325a1-deb2-46fa-b818-e4de8d266868,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,363,1e2,2,0,1,0,0,0,0},08c8307b-4be9-43c7-b353-b4019483cb18,
 {8,"Действие7",0,1,
 {1,1,
 {"#","Действие7"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,315,1e2,0,0,1,0,0,0,0},57081868-fc00-443f-bd7f-e4d3ee3679ab,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,315,1e2,0,0,1,0,0,0,0},99539f38-e9c7-4328-a6fe-e288c52e72b3,
 {8,"Действие9",0,1,
 {1,1,
 {"#","Действие9"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,317,1e2,0,0,1,0,0,0,0},55f22bee-f9b3-4471-87f7-b27e527bb7c5,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,317,1e2,0,0,1,0,0,0,0},9db82b09-b258-4bd0-97e2-d136f134dcb9,
 {8,"Разделитель",0,1,
 {1,1,
 {"ru","Действие"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,350,1e2,2,0,1,0,0,0,0},1de08862-13ba-4eab-8756-ad5f39748561,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,350,1e2,2,0,1,0,0,0,0},1e7929a7-a559-41fc-966e-80336dd6d28f,
 {8,"ЗагрузитьВетку",0,2,
 {1,1,
 {"ru","Загрузить ветку (локально)"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,354,1e2,0,0,1,0,0,0,0},cf532fd5-aae0-4ff9-af2e-c7c73f4b9714,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,354,1e2,0,0,1,0,0,0,0},555e65a3-4d61-4f45-b8f8-37c81b22a331,
 {8,"СохранитьТекущийЗапросВФайл",0,2,
 {1,1,
 {"ru","Выгрузить текущий запрос (локально)"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,353,1e2,0,0,1,0,0,0,0},b3695e3e-9b9f-4c21-acde-6bb9baf900e7,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,353,1e2,0,0,1,0,0,0,0},1b1dc6ff-15d9-4738-bb9d-5af31fc0d926,
 {8,"Разделитель1",0,6,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,362,1e2,2,0,1,0,0,0,0},79ce231e-477f-4ac9-8758-a76d4b854a0b,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,362,1e2,2,0,1,0,0,0,0},6771503b-4634-4010-a103-798b446a707a,
 {8,"ВыгрузитьТекущийЗапросВОблако",0,4,
 {1,1,
 {"ru","Выгрузить текущий запрос в облако"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,381,1e2,0,0,1,0,0,0,0},6d50eeb7-6403-4d80-8cb4-a7410a12e22b,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,381,1e2,0,0,1,0,0,0,0},c807383d-df78-4c1d-91ae-5cf9c05c4f18,
 {8,"Разделитель3",0,7,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,380,1e2,2,0,1,0,0,0,0},149cda93-89da-491c-9676-23b45700e63d,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,380,1e2,2,0,1,0,0,0,0},33c9a620-02dd-4c96-8116-32c62c561f08,
 {8,"СравнитьЗапросы",0,1,
 {1,1,
 {"ru","Сравнить запросы"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,356,1e2,0,0,1,0,0,0,0},ee68ab01-d32e-4429-8b11-b74d980e915f,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,356,1e2,0,0,1,0,0,0,0},442e60a9-6b7b-47fe-b637-27005d473966,
 {8,"Разделитель4",0,8,
-{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,385,1e2,2,0,1,0,0,0,0},a31c657a-b867-44dc-9d6b-b5022d3221af,
+{1,0},0,47ef050b-e4be-46e1-b35e-a7646351634a,385,1e2,2,0,1,0,0,0,0},062a61d8-6ca5-42e7-b2f5-8942246860aa,
 {8,"НоваяСтрокаНаТомжеУровне",0,1,
 {1,1,
 {"ru","Новая строка на том же уровне"}
@@ -2176,35 +2176,35 @@ a2tra2tr}
 {0}
 }
 },
-{5,47ef050b-e4be-46e1-b35e-a7646351634a,371,0,8,62e8421b-4f13-4075-b477-f0bb696e8d57,
+{5,47ef050b-e4be-46e1-b35e-a7646351634a,371,0,8,a47d1e94-2027-410e-82ae-277065d4c2a2,
 {8,"Нет",0,2,
 {1,1,
 {"#","Нет"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,372,1e2,0,0,1,0,0,0,0},d0905ca6-3696-461a-8641-a6731c05fa83,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,372,1e2,0,0,1,0,0,0,0},2ab01b77-019f-4dc0-8e0e-835e9bf276b3,
 {8,"Разделитель",0,2,
 {1,1,
 {"ru","Действие"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,373,1e2,2,0,1,0,0,0,0},63e9232a-732d-4930-8f2f-7261d3d31d6a,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,373,1e2,2,0,1,0,0,0,0},dd642d91-41b7-4021-9933-b7962c9a66d8,
 {8,"Среднее",0,2,
 {1,1,
 {"#","Среднее"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,374,1e2,0,0,1,0,0,0,0},a1e02813-3c85-497c-b8ee-33a0656d8e90,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,374,1e2,0,0,1,0,0,0,0},176c4e7b-22c5-4313-9ec0-9464951bde0f,
 {8,"КоличествоЗначений",0,2,
 {1,1,
 {"#","Количество значений"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,375,1e2,0,0,1,0,0,0,0},894b9195-62f9-457f-8513-8b9a461c862c,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,375,1e2,0,0,1,0,0,0,0},142e72c5-ac74-4e83-91ed-c21b24cfdb23,
 {8,"КоличествоЧисел",0,2,
 {1,1,
 {"#","Количество чисел"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,376,1e2,0,0,1,0,0,0,0},f5b5a5c5-87e5-44a2-abee-f56d81095d0d,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,376,1e2,0,0,1,0,0,0,0},3e0125b2-8f23-45fa-a2d7-29a9a55bca31,
 {8,"Максимум",0,2,
 {1,1,
 {"#","Максимум"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,377,1e2,0,0,1,0,0,0,0},3433b9f9-93cb-4dda-a338-8622d51990e5,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,377,1e2,0,0,1,0,0,0,0},522cdef5-3ed8-4014-a9d5-be8469271b63,
 {8,"Минимум",0,2,
 {1,1,
 {"#","Минимум"}
-},0,47ef050b-e4be-46e1-b35e-a7646351634a,378,1e2,0,0,1,0,0,0,0},4b0e8c63-9f78-45d5-9d3e-5e2c9552a207,
+},0,47ef050b-e4be-46e1-b35e-a7646351634a,378,1e2,0,0,1,0,0,0,0},6fd66611-9b80-4f88-be11-fd531dcc4bf9,
 {8,"Сумма",0,2,
 {1,1,
 {"#","Сумма"}
@@ -2213,9 +2213,9 @@ a2tra2tr}
 {0}
 }
 },
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,2,773d9f85-ac0b-47bf-85a2-42dc086245b1,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,2,890a2fc9-ba51-495e-92ec-48dcfd2b60aa,
 {8,"МенюСпискаЗапросов",0,13,
-{1,0},1,47ef050b-e4be-46e1-b35e-a7646351634a,233,1e2,1,0,1,0,0,0,0},accf8006-e2e6-4f32-98fb-4308c87dee44,
+{1,0},1,47ef050b-e4be-46e1-b35e-a7646351634a,233,1e2,1,0,1,0,0,0,0},5a2b7b39-5145-4c55-add3-ae1721aed277,
 {8,"МенюАгрегатныеФункции",0,14,
 {1,0},1,47ef050b-e4be-46e1-b35e-a7646351634a,370,1e2,1,0,1,0,0,0,0},
 {0,0,
@@ -2850,7 +2850,7 @@ Kt9/Iv3GJlTendlSbKP1Zcu2rqOzXOPxFCmWTQzqY9kRak/y6q+K+ldqRi2kJw==
 {3,1,
 {-18},0,0,0},
 {8,1,10,
-{"ru","ru",1,2,"en","Английский","Английский","ru","Русский","Русский",1},
+{"ru","ru",1,1,"ru","Русский","Русский",1},
 {128,72},
 {1,1,
 {4,0,
@@ -3280,7 +3280,7 @@ bP+dbP+dbP+dbP+dbAD/nWz/////////////////////////////nWwA/51s/51s
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
 {1,0},0,0,100,0,0},9,1,0,0,1,1,
 {5,47ef050b-e4be-46e1-b35e-a7646351634a,378,1,2,
-{7,b49ffa21-d76c-4b07-9465-0a4fea7ef0b5,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,193a630a-3d5a-4cc1-bd70-dead30faa173,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"СпецМенюЗакрытьТекущуюстраницу",
 {1,"СпецМенюЗакрытьТекущуюстраницу",
 {1,1,
@@ -3298,7 +3298,7 @@ bP+dbP+dbP+dbP+dbAD/nWz/////////////////////////////nWwA/51s/51s
 }
 },8,
 {0,0,0},2},
-{7,772c5b87-7285-49a4-bff8-b9c5e3792320,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,c60e6513-f7f6-4ed7-8264-d5c55c1fc706,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"СпецМенюЗакрытьвсеВнешниеРезультаты",
 {1,"СпецМенюЗакрытьвсеВнешниеРезультаты",
 {1,1,
@@ -3322,11 +3322,11 @@ bP+dbP+dbP+dbP+dbAD/nWz/////////////////////////////nWwA/51s/51s
 {"ru","Закрыть все внешние результаты"}
 },
 {0,0,0},2},1,
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,2,b49ffa21-d76c-4b07-9465-0a4fea7ef0b5,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,2,193a630a-3d5a-4cc1-bd70-dead30faa173,
 {8,"ЗакрытьТекущуюстраницу",0,2,
 {1,1,
 {"ru","Закрыть текущую страницу"}
-},1,47ef050b-e4be-46e1-b35e-a7646351634a,377,1e2,0,0,1,0,0,0,0},772c5b87-7285-49a4-bff8-b9c5e3792320,
+},1,47ef050b-e4be-46e1-b35e-a7646351634a,377,1e2,0,0,1,0,0,0,0},c60e6513-f7f6-4ed7-8264-d5c55c1fc706,
 {8,"ЗакрытьвсеВнешниеРезультаты",0,2,
 {1,1,
 {"ru","Закрыть все внешние результаты"}
@@ -3396,7 +3396,7 @@ bP+dbP+dbP+dbP+dbAD/nWz/////////////////////////////nWwA/51s/51s
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
 {1,0},0,0,100,0,0},9,2,0,0,1,1,
 {5,604e1fe9-90d7-45fc-9b0e-e42174d5bfa6,1,1,1,
-{7,abe40142-d4f8-498f-8b58-ef1cbcb2f152,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,6e66c575-a5fe-41da-98ef-8df2f0e1032d,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"МенюТаблицыРезультатаПолучитьТипЗначения",
 {1,"МенюТаблицыРезультатаПолучитьТипЗначения",
 {1,1,
@@ -3499,7 +3499,7 @@ C4A4ASoMY8vP3PyfEd2Gj0BsAJRoANIPQBjKNoDKYTjJAajgA7oToGIOGBqAEhdw
 uRtZjmRPD0INjMgxDYwLBSAFCsp4qNBCEB/o6QdYNRADAAIMACd8LNPK+FPLAAAA
 AElFTkSuQmCC}
 },0,""},2},1,
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,1,abe40142-d4f8-498f-8b58-ef1cbcb2f152,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,1,6e66c575-a5fe-41da-98ef-8df2f0e1032d,
 {8,"ПолучитьТипЗначения",0,1,
 {1,1,
 {"ru","Показать тип значения"}
@@ -3657,11 +3657,7 @@ AElFTkSuQmCC}
 {0,0,0},
 {1,0},0,0,0,0,0,0,0,16777215,1}
 },
-{1,
-{11fe1b25-97c5-4d25-ab3f-8c9a5655122e,
-{3,00000000-0000-0000-0000-000000000000}
-}
-},
+{0},
 {2,
 {3,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"СсылкаНаДокументОчистка",
@@ -4716,7 +4712,7 @@ d9aEEJ2xAfaHiLFuo5f5yw1AduAfHTvyUBQyQiE9AA==},0},0,0,0,0,0},
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
 {1,0},0,0,100,0,0},9,2,0,0,1,1,
 {5,a5b109f8-9a63-4d46-a83e-86a342430e5b,6,1,3,
-{7,29ea055b-7391-44d2-b15f-a51a253ddd3c,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,2c97b813-98ab-4787-b055-e28cae5f952a,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельФормыПоказатьВыделеннуюВременнуюТаблицу",
 {1,"КоманднаяПанельФормыПоказатьВыделеннуюВременнуюТаблицу",
 {1,1,
@@ -4735,7 +4731,7 @@ d9aEEJ2xAfaHiLFuo5f5yw1AduAfHTvyUBQyQiE9AA==},0},0,0,0,0,0},
 },1,
 {4,0,
 {0},"",-1,-1,1,0,""},2},
-{7,cf38f71f-e488-40e0-89b8-f17532e003fc,1,e1692cc2-605b-4535-84dd-28440238746c,
+{7,c7c8d2aa-7127-4153-9c5a-8b79b7698b37,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельДополнительнаяПанельРезультатаПерейтиКОписаниюВременнойТаблицы",
 {1,"КоманднаяПанельДополнительнаяПанельРезультатаПерейтиКОписаниюВременнойТаблицы",
 {1,1,
@@ -4752,7 +4748,7 @@ d9aEEJ2xAfaHiLFuo5f5yw1AduAfHTvyUBQyQiE9AA==},0},0,0,0,0,0},
 {0,0,0}
 }
 },0,2},
-{7,5da26329-f601-4aad-868c-4e12b5fe01e2,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{7,0ecb71ed-1c4d-4722-bf25-87b8d8eff1e2,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,a5b109f8-9a63-4d46-a83e-86a342430e5b,4},3,
 {1,1,
 {"ru","Работа с временными таблицами"}
@@ -4772,11 +4768,11 @@ ZXHqJ7S/g/eszAb8t2yXcCUnexG8Ks652Ipz8XAC+fKDF7evAVA7OGB5aYlPzSai
 aCPkwdfabpJMx9bytnTRL80C82MzMErODc47nXaxXN6aPD6/ZYxp//3Vf+oX0tRx
 fO5PxAkAAAAASUVORK5CYII=}
 },0,""},2},2,
-{5,a5b109f8-9a63-4d46-a83e-86a342430e5b,4,0,2,29ea055b-7391-44d2-b15f-a51a253ddd3c,
+{5,a5b109f8-9a63-4d46-a83e-86a342430e5b,4,0,2,2c97b813-98ab-4787-b055-e28cae5f952a,
 {8,"ПоказатьВыделеннуюВременнуюТаблицу",0,3,
 {1,1,
 {"#","Показать выделенную временную таблицу"}
-},0,a5b109f8-9a63-4d46-a83e-86a342430e5b,6,1e2,0,0,1,0,0,0,0},cf38f71f-e488-40e0-89b8-f17532e003fc,
+},0,a5b109f8-9a63-4d46-a83e-86a342430e5b,6,1e2,0,0,1,0,0,0,0},c7c8d2aa-7127-4153-9c5a-8b79b7698b37,
 {8,"ПерейтиКОписаниюВременнойТаблицы",0,2,
 {1,1,
 {"#","Перейти к описанию временной таблицы"}
@@ -4785,7 +4781,7 @@ fO5PxAkAAAAASUVORK5CYII=}
 {0}
 }
 },
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,1,5da26329-f601-4aad-868c-4e12b5fe01e2,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,1,0ecb71ed-1c4d-4722-bf25-87b8d8eff1e2,
 {8,"Подменю",0,1,
 {1,1,
 {"ru","Работа с временными таблицами"}
@@ -4828,7 +4824,7 @@ fO5PxAkAAAAASUVORK5CYII=}
 }
 }
 }
-},821,531,1,0,1,4,4,5586,821,531,96},
+},821,531,1,0,1,4,4,5590,821,531,96},
 {
 {0},41,
 {18,
