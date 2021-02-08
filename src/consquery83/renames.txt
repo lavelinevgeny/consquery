@@ -54,7 +54,7 @@
 9a09ea48-4eea-4c14-96a9-33f86a96a0f8-->und\9a09ea48-4eea-4c14-96a9-33f86a96a0f8
 9a09ea48-4eea-4c14-96a9-33f86a96a0f8.0-->Form\ФормаНастройкиПрокси
 9c89fbfd-3ff5-4300-90dc-f80d5ed5860f-->und\9c89fbfd-3ff5-4300-90dc-f80d5ed5860f
-9c89fbfd-3ff5-4300-90dc-f80d5ed5860f.0-->Form\Точка
+9c89fbfd-3ff5-4300-90dc-f80d5ed5860f.0-->Form\ФормаПустая
 a9a7ab15-ecdf-449c-b88c-8b501a5cc28e-->und\a9a7ab15-ecdf-449c-b88c-8b501a5cc28e
 a9a7ab15-ecdf-449c-b88c-8b501a5cc28e.0-->und\a9a7ab15-ecdf-449c-b88c-8b501a5cc28e.0
 ae98081d-962d-4fb5-a775-1a506c040ccd-->und\ae98081d-962d-4fb5-a775-1a506c040ccd
@@ -68,8 +68,6 @@ b6805d93-3c0e-4be5-852d-abb72a15cf18.0-->Form\Форма
 b6805d93-3c0e-4be5-852d-abb72a15cf18.1-->und\b6805d93-3c0e-4be5-852d-abb72a15cf18.1
 c2e43701-2e28-4f40-8526-5ba20709ef7d-->und\c2e43701-2e28-4f40-8526-5ba20709ef7d
 c2e43701-2e28-4f40-8526-5ba20709ef7d.0-->und\c2e43701-2e28-4f40-8526-5ba20709ef7d.0
-c4677dbf-ba13-4a34-aef7-a7d126c42bb0-->und\c4677dbf-ba13-4a34-aef7-a7d126c42bb0
-c4677dbf-ba13-4a34-aef7-a7d126c42bb0.0-->und\c4677dbf-ba13-4a34-aef7-a7d126c42bb0.0
 cfcdeca6-78cf-4d72-82c1-492a27201f80.0\info-->und\cfcdeca6-78cf-4d72-82c1-492a27201f80.0\info
 cfcdeca6-78cf-4d72-82c1-492a27201f80.0\text-->ObjectModule.bsl
 cfcdeca6-78cf-4d72-82c1-492a27201f80.1-->und\cfcdeca6-78cf-4d72-82c1-492a27201f80.1
