@@ -1,4 +1,5 @@
 [![Join telegram chat](https://img.shields.io/badge/chat-telegram-blue?style=flat&logo=telegram)](https://t.me/consquery)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 Старое расположение <a href = "https://github.com/evgenylavelin/consquery" target="_blank">здесь</a>
 # Консоль запросов 1С consquery.ru
