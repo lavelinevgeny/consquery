@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗакрыть" id="49">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="50"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНайти" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа найти</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа найти</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНайтиРасширеннаяПодсказка" id="7"/>
+			<ChildItems>
+				<InputField name="СтрокаПоиска" id="1">
+					<DataPath>СтрокаПоиска</DataPath>
+					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<Button name="Найти" id="4">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.КомандаНайти</CommandName>
+					<Picture>
+						<xr:Abs>Picture.png</xr:Abs>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="НайтиРасширеннаяПодсказка" id="5"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОбластьПоиска" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Область поиска</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа область поиска</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаОбластьПоискаРасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<UsualGroup name="Группа1" id="72">
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="73"/>
+					<ChildItems>
+						<CheckBoxField name="ИскатьВАлгоритмах" id="54">
+							<DataPath>ИскатьВАлгоритмах</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИскатьВАлгоритмахКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="ИскатьВАлгоритмахРасширеннаяПодсказка" id="56"/>
+							<Events>
+								<Event name="OnChange">ИскатьВАлгоритмахПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<CheckBoxField name="ИскатьВЗапросах" id="57">
+							<DataPath>ИскатьВЗапросах</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИскатьВЗапросахКонтекстноеМеню" id="58"/>
+							<ExtendedTooltip name="ИскатьВЗапросахРасширеннаяПодсказка" id="59"/>
+							<Events>
+								<Event name="OnChange">ИскатьВЗапросахПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа2" id="74">
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="75"/>
+					<ChildItems>
+						<CheckBoxField name="ИскатьВНазваниях" id="60">
+							<DataPath>ИскатьВНазваниях</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИскатьВНазванияхКонтекстноеМеню" id="61"/>
+							<ExtendedTooltip name="ИскатьВНазванияхРасширеннаяПодсказка" id="62"/>
+							<Events>
+								<Event name="OnChange">ИскатьВНазванияхПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<CheckBoxField name="ИскатьВТексте" id="66">
+							<DataPath>ИскатьВТексте</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИскатьВТекстеКонтекстноеМеню" id="67"/>
+							<ExtendedTooltip name="ИскатьВТекстеРасширеннаяПодсказка" id="68"/>
+							<Events>
+								<Event name="OnChange">ИскатьВТекстеПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="161">
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="162"/>
+					<ChildItems>
+						<CheckBoxField name="ИскатьВОблаке" id="63">
+							<DataPath>ИскатьВОблаке</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИскатьВОблакеКонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="ИскатьВОблакеРасширеннаяПодсказка" id="65"/>
+							<Events>
+								<Event name="OnChange">ИскатьВОблакеПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<CheckBoxField name="ИскатьЛокально" id="69">
+							<DataPath>ИскатьЛокально</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИскатьЛокальноКонтекстноеМеню" id="70"/>
+							<ExtendedTooltip name="ИскатьЛокальноРасширеннаяПодсказка" id="71"/>
+							<Events>
+								<Event name="OnChange">ИскатьЛокальноПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИсточникПоиска" id="159">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск в FastCode</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа источник поиска</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаИсточникПоискаРасширеннаяПодсказка" id="160"/>
+			<ChildItems>
+				<CheckBoxField name="ИскатьВFastСode" id="117">
+					<DataPath>ИскатьВFastСode</DataPath>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сервис fastcode.im</v8:content>
+						</v8:item>
+					</ToolTip>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИскатьВFastСodeКонтекстноеМеню" id="118"/>
+					<ExtendedTooltip name="ИскатьВFastСodeРасширеннаяПодсказка" id="119"/>
+					<Events>
+						<Event name="OnChange">ИскатьВFastСodeПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<UsualGroup name="Группа4" id="163">
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="164"/>
+					<ChildItems>
+						<CheckBoxField name="ИскатьFastCodeБСП" id="165">
+							<DataPath>ИскатьFastCodeБСП</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИскатьFastCodeБСПКонтекстноеМеню" id="166"/>
+							<ExtendedTooltip name="ИскатьFastCodeБСПРасширеннаяПодсказка" id="167"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="ПанельРезультатыПоиска" id="82">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель результаты поиска</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель результаты поиска</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="ПанельРезультатыПоискаРасширеннаяПодсказка" id="83"/>
+			<ChildItems>
+				<Page name="ПанельРезультатыПоискаЛокально" id="78">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Локально</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Панель результаты поиска локально</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="ПанельРезультатыПоискаЛокальноРасширеннаяПодсказка" id="79"/>
+					<ChildItems>
+						<Table name="РезультатПоиска" id="21">
+							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>РезультатПоиска</DataPath>
+							<RowPictureDataPath>РезультатПоиска.Тип</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Abs>RowsPicture.png</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</RowsPicture>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РезультатПоискаКонтекстноеМеню" id="22"/>
+							<AutoCommandBar name="РезультатПоискаКоманднаяПанель" id="23">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="РезультатПоискаРасширеннаяПодсказка" id="24"/>
+							<SearchStringAddition name="РезультатПоискаСтрокаПоиска" id="25">
+								<AdditionSource>
+									<Item>РезультатПоиска</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РезультатПоискаСтрокаПоискаКонтекстноеМеню" id="26"/>
+								<ExtendedTooltip name="РезультатПоискаСтрокаПоискаРасширеннаяПодсказка" id="27"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РезультатПоискаСостояниеПросмотра" id="28">
+								<AdditionSource>
+									<Item>РезультатПоиска</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РезультатПоискаСостояниеПросмотраКонтекстноеМеню" id="29"/>
+								<ExtendedTooltip name="РезультатПоискаСостояниеПросмотраРасширеннаяПодсказка" id="30"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РезультатПоискаУправлениеПоиском" id="31">
+								<AdditionSource>
+									<Item>РезультатПоиска</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РезультатПоискаУправлениеПоискомКонтекстноеМеню" id="32"/>
+								<ExtendedTooltip name="РезультатПоискаУправлениеПоискомРасширеннаяПодсказка" id="33"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">РезультатПоискаВыбор</Event>
+							</Events>
+							<ChildItems>
+								<PictureField name="РезультатПоискаТип" id="34">
+									<DataPath>РезультатПоиска.Тип</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="РезультатПоискаТипКонтекстноеМеню" id="35"/>
+									<ExtendedTooltip name="РезультатПоискаТипРасширеннаяПодсказка" id="36"/>
+								</PictureField>
+								<InputField name="РезультатПоискаИмяЗапроса" id="37">
+									<DataPath>РезультатПоиска.ИмяЗапроса</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаИмяЗапросаКонтекстноеМеню" id="38"/>
+									<ExtendedTooltip name="РезультатПоискаИмяЗапросаРасширеннаяПодсказка" id="39"/>
+								</InputField>
+								<InputField name="РезультатПоискаИмяКода" id="51">
+									<DataPath>РезультатПоиска.ИмяКода</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаИмяКодаКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="РезультатПоискаИмяКодаРасширеннаяПодсказка" id="53"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ПанельРезультатыПоискаОблако" id="80">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В облаке</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Панель результаты поиска облако</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="ПанельРезультатыПоискаОблакоРасширеннаяПодсказка" id="81"/>
+					<ChildItems>
+						<Table name="РезультатПоискаВОблаке" id="84">
+							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>РезультатПоискаВОблаке</DataPath>
+							<RowPictureDataPath>РезультатПоискаВОблаке.Тип</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Abs>RowsPicture.png</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</RowsPicture>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РезультатПоискаВОблакеКонтекстноеМеню" id="85"/>
+							<AutoCommandBar name="РезультатПоискаВОблакеКоманднаяПанель" id="86">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="РезультатПоискаВОблакеПродолжитьПоиск" id="112">
+										<Type>CommandBarButton</Type>
+										<Enabled>false</Enabled>
+										<CommandName>Form.Command.ПродолжитьПоиск</CommandName>
+										<ExtendedTooltip name="РезультатПоискаВОблакеПродолжитьПоискРасширеннаяПодсказка" id="113"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="РезультатПоискаВОблакеРасширеннаяПодсказка" id="87"/>
+							<SearchStringAddition name="РезультатПоискаВОблакеСтрокаПоиска" id="88">
+								<AdditionSource>
+									<Item>РезультатПоискаВОблаке</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РезультатПоискаВОблакеСтрокаПоискаКонтекстноеМеню" id="89"/>
+								<ExtendedTooltip name="РезультатПоискаВОблакеСтрокаПоискаРасширеннаяПодсказка" id="90"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РезультатПоискаВОблакеСостояниеПросмотра" id="91">
+								<AdditionSource>
+									<Item>РезультатПоискаВОблаке</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РезультатПоискаВОблакеСостояниеПросмотраКонтекстноеМеню" id="92"/>
+								<ExtendedTooltip name="РезультатПоискаВОблакеСостояниеПросмотраРасширеннаяПодсказка" id="93"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РезультатПоискаВОблакеУправлениеПоиском" id="94">
+								<AdditionSource>
+									<Item>РезультатПоискаВОблаке</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РезультатПоискаВОблакеУправлениеПоискомКонтекстноеМеню" id="95"/>
+								<ExtendedTooltip name="РезультатПоискаВОблакеУправлениеПоискомРасширеннаяПодсказка" id="96"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">РезультатПоискаВОблакеВыбор</Event>
+								<Event name="OnChange">РезультатПоискаВОблакеПриИзменении</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="РезультатПоискаВОблакеТип" id="97">
+									<DataPath>РезультатПоискаВОблаке.Тип</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаВОблакеТипКонтекстноеМеню" id="98"/>
+									<ExtendedTooltip name="РезультатПоискаВОблакеТипРасширеннаяПодсказка" id="99"/>
+								</InputField>
+								<InputField name="РезультатПоискаВОблакеимяФайла" id="114">
+									<DataPath>РезультатПоискаВОблаке.имяФайла</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаВОблакеимяФайлаКонтекстноеМеню" id="115"/>
+									<ExtendedTooltip name="РезультатПоискаВОблакеимяФайлаРасширеннаяПодсказка" id="116"/>
+								</InputField>
+								<InputField name="РезультатПоискаВОблакеИмяЗапроса" id="100">
+									<DataPath>РезультатПоискаВОблаке.ИмяЗапроса</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаВОблакеИмяЗапросаКонтекстноеМеню" id="101"/>
+									<ExtendedTooltip name="РезультатПоискаВОблакеИмяЗапросаРасширеннаяПодсказка" id="102"/>
+								</InputField>
+								<InputField name="РезультатПоискаВОблакеИмяКода" id="103">
+									<DataPath>РезультатПоискаВОблаке.ИмяКода</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаВОблакеИмяКодаКонтекстноеМеню" id="104"/>
+									<ExtendedTooltip name="РезультатПоискаВОблакеИмяКодаРасширеннаяПодсказка" id="105"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ПанельРезультатыПоискаFastCode" id="120">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Fast code</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Панель результаты поиска fast code</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="ПанельРезультатыПоискаFastCodeРасширеннаяПодсказка" id="121"/>
+					<ChildItems>
+						<Table name="РезультатПоискаFastCode" id="122">
+							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>РезультатПоискаFastCode</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РезультатПоискаFastCodeКонтекстноеМеню" id="123"/>
+							<AutoCommandBar name="РезультатПоискаFastCodeКоманднаяПанель" id="124">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="РезультатПоискаFastCodeРасширеннаяПодсказка" id="125"/>
+							<SearchStringAddition name="РезультатПоискаFastCodeСтрокаПоиска" id="126">
+								<AdditionSource>
+									<Item>РезультатПоискаFastCode</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РезультатПоискаFastCodeСтрокаПоискаКонтекстноеМеню" id="127"/>
+								<ExtendedTooltip name="РезультатПоискаFastCodeСтрокаПоискаРасширеннаяПодсказка" id="128"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РезультатПоискаFastCodeСостояниеПросмотра" id="129">
+								<AdditionSource>
+									<Item>РезультатПоискаFastCode</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РезультатПоискаFastCodeСостояниеПросмотраКонтекстноеМеню" id="130"/>
+								<ExtendedTooltip name="РезультатПоискаFastCodeСостояниеПросмотраРасширеннаяПодсказка" id="131"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РезультатПоискаFastCodeУправлениеПоиском" id="132">
+								<AdditionSource>
+									<Item>РезультатПоискаFastCode</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РезультатПоискаFastCodeУправлениеПоискомКонтекстноеМеню" id="133"/>
+								<ExtendedTooltip name="РезультатПоискаFastCodeУправлениеПоискомРасширеннаяПодсказка" id="134"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">РезультатПоискаFastCodeВыбор</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="РезультатПоискаFastCodeИмяКода" id="141">
+									<DataPath>РезультатПоискаFastCode.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаFastCodeИмяКодаКонтекстноеМеню" id="142"/>
+									<ExtendedTooltip name="РезультатПоискаFastCodeИмяКодаРасширеннаяПодсказка" id="143"/>
+								</InputField>
+								<InputField name="РезультатПоискаFastCodeСтрокаКода" id="147">
+									<DataPath>РезультатПоискаFastCode.Текст</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаFastCodeСтрокаКодаКонтекстноеМеню" id="148"/>
+									<ExtendedTooltip name="РезультатПоискаFastCodeСтрокаКодаРасширеннаяПодсказка" id="149"/>
+								</InputField>
+								<InputField name="РезультатПоискаFastCodeОписание" id="150">
+									<DataPath>РезультатПоискаFastCode.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="РезультатПоискаFastCodeОписаниеКонтекстноеМеню" id="151"/>
+									<ExtendedTooltip name="РезультатПоискаFastCodeОписаниеРасширеннаяПодсказка" id="152"/>
+								</InputField>
+								<InputField name="РезультатПоискаFastCodeАвтор" id="153">
+									<DataPath>РезультатПоискаFastCode.Автор</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаFastCodeАвторКонтекстноеМеню" id="154"/>
+									<ExtendedTooltip name="РезультатПоискаFastCodeАвторРасширеннаяПодсказка" id="155"/>
+								</InputField>
+								<InputField name="РезультатПоискаFastCodeДата" id="156">
+									<DataPath>РезультатПоискаFastCode.Дата</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РезультатПоискаFastCodeДатаКонтекстноеМеню" id="157"/>
+									<ExtendedTooltip name="РезультатПоискаFastCodeДатаРасширеннаяПодсказка" id="158"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.КонсольЗапросов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СтрокаПоиска" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка поиска</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИскатьВТексте" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИскатьВНазваниях" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Названия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РезультатПоиска" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат поиска</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Тип" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяЗапроса" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запрос</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяКода" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтрокаЗапроса" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка запроса</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтрокаКода" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка кода</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ИскатьВЗапросах" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запросы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИскатьВАлгоритмах" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Алгоритмы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИскатьЛокально" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Локально</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИскатьВОблаке" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В облаке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РезультатПоискаВОблаке" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат поиска</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Тип" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяЗапроса" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запрос</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяКода" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтрокаЗапроса" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка запроса</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтрокаКода" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка кода</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="имяФайла" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя файла</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="идФайла" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ид файла</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="НастройкиПрокси" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки прокси</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ТипОбработка" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип обработка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИскатьВFastСode" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>FastCode</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РезультатПоискаFastCode" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>FastCode</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Наименование" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Текст" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Описание" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Автор" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Дата" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ИскатьFastCodeБСП" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>БСП</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаНайти" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда найти</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда найти</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаНайти</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПродолжитьПоиск" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжить поиск</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжить поиск</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПродолжитьПоиск</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>
