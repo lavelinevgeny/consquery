@@ -21,7 +21,7 @@
 			</Synonym>
 			<Comment/>
 			<DefaultForm>ExternalDataProcessor.КонсольЗапросов.Form.Форма</DefaultForm>
-			<AuxiliaryForm>ExternalDataProcessor.КонсольЗапросов.Form.ФормаУпр</AuxiliaryForm>
+			<AuxiliaryForm>ExternalDataProcessor.КонсольЗапросов.Form.УпрФорма</AuxiliaryForm>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="8b95abbf-7350-4430-92b8-bec00b9781d4">
@@ -103,6 +103,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
 						<v8:Type>xs:boolean</v8:Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -366,11 +367,19 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Form>Граница</Form>
-			<Form>ДлительнаяОперация</Form>
-			<Form>МоментВремени</Form>
-			<Form>ТаблицаЗначений</Form>
-			<Form>ФормаПустая</Form>
+			<Form>УпрВыборТипа</Form>
+			<Form>УпрГраница</Form>
+			<Form>УпрДиалогВыбораИсточникаДанныхИзОблака</Form>
+			<Form>УпрДлительнаяОперация</Form>
+			<Form>УпрИсполняемыйКод</Form>
+			<Form>УпрМоментВремени</Form>
+			<Form>УпрНастройки</Form>
+			<Form>УпрПодключениеКОблаку</Form>
+			<Form>УпрПоиск</Form>
+			<Form>УпрПредпросмотрИзОблака</Form>
+			<Form>УпрПустая</Form>
+			<Form>УпрТаблицаЗначений</Form>
+			<Form>УпрФорма</Form>
 			<Form>Форма</Form>
 			<Form>ФормаВложеннойТаблицы</Form>
 			<Form>ФормаВыбораПолейЗапроса</Form>
@@ -385,15 +394,8 @@
 			<Form>ФормаПодключениеКОблаку</Form>
 			<Form>ФормаПоиск</Form>
 			<Form>ФормаПредпросмотрИзОблака</Form>
+			<Form>ФормаПустая</Form>
 			<Form>ФормаСложныйВопрос</Form>
-			<Form>ФормаУпр</Form>
-			<Form>ФормаУпрИсполняемыйКод</Form>
-			<Form>ФормаУпрПустая</Form>
-			<Form>ФормаУпрПоиск</Form>
-			<Form>ФормаУпрПодключениеКОблаку</Form>
-			<Form>ФормаУпрДиалогВыбораИсточникаДанныхИзОблака</Form>
-			<Form>ФормаУпрНастройки</Form>
-			<Form>ФормаУпрПредпросмотрИзОблака</Form>
 			<Template>Картинка_Fugue_Icon</Template>
 			<Template>Картинка_RSS</Template>
 			<Template>Картинка_Информация</Template>
@@ -406,6 +408,7 @@
 			<Template>Картинка_Последовательности</Template>
 			<Template>Картинка_Главное</Template>
 			<Template>БиблиотекаКартинок</Template>
+			<Template>typesimages</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
