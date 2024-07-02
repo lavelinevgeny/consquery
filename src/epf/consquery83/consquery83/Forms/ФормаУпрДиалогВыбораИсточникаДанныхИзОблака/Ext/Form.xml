@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Выбор источника данных из облака</v8:content>
+		</v8:item>
+	</Title>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="8">
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<Button name="Домой" id="1">
+					<Type>UsualButton</Type>
+					<Width>4</Width>
+					<CommandName>Form.Command.Домой</CommandName>
+					<ExtendedTooltip name="ДомойРасширеннаяПодсказка" id="2"/>
+				</Button>
+				<Button name="УровеньВверх" id="6">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.УровеньВверх</CommandName>
+					<ExtendedTooltip name="УровеньВверхРасширеннаяПодсказка" id="7"/>
+				</Button>
+				<InputField name="Путь" id="3">
+					<DataPath>Путь</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<TextEdit>false</TextEdit>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Путь</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="ПутьКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="ПутьРасширеннаяПодсказка" id="5"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="СписокЭлементовИзОблака" id="10">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<ChangeRowSet>false</ChangeRowSet>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>СписокЭлементовИзОблака</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокЭлементовИзОблакаКонтекстноеМеню" id="11">
+				<ChildItems>
+					<Button name="СписокЭлементовИзОблакаКонтекстноеМенюОбновитьСписок" id="57">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОбновитьСписок</CommandName>
+						<ExtendedTooltip name="СписокЭлементовИзОблакаКонтекстноеМенюОбновитьСписокРасширеннаяПодсказка" id="58"/>
+					</Button>
+					<Button name="СписокЭлементовИзОблакаКонтекстноеМенюУдалить" id="61">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Удалить</CommandName>
+						<ExtendedTooltip name="СписокЭлементовИзОблакаКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="62"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="СписокЭлементовИзОблакаКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="СписокЭлементовИзОблакаРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="СписокЭлементовИзОблакаСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>СписокЭлементовИзОблака</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокЭлементовИзОблакаСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СписокЭлементовИзОблакаСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокЭлементовИзОблакаСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>СписокЭлементовИзОблака</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокЭлементовИзОблакаСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="СписокЭлементовИзОблакаСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокЭлементовИзОблакаУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>СписокЭлементовИзОблака</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокЭлементовИзОблакаУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="СписокЭлементовИзОблакаУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">СписокЭлементовИзОблакаВыбор</Event>
+				<Event name="OnActivateRow">СписокЭлементовИзОблакаПриАктивизацииСтроки</Event>
+			</Events>
+			<ChildItems>
+				<ColumnGroup name="СписокЭлементовИзОблакаГруппаТип" id="66">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список элементов из облака группа тип</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список элементов из облака группа тип</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>InCell</Group>
+					<ExtendedTooltip name="СписокЭлементовИзОблакаГруппаТипРасширеннаяПодсказка" id="67"/>
+					<ChildItems>
+						<PictureField name="СписокЭлементовИзОблакаТипКартинка" id="63">
+							<DataPath>СписокЭлементовИзОблака.ТипКартинка</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ValuesPicture>
+								<xr:Abs>ValuesPicture.png</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</ValuesPicture>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="СписокЭлементовИзОблакаТипКартинкаКонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="СписокЭлементовИзОблакаТипКартинкаРасширеннаяПодсказка" id="65"/>
+						</PictureField>
+						<InputField name="СписокЭлементовИзОблакаТип" id="26">
+							<DataPath>СписокЭлементовИзОблака.Тип</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокЭлементовИзОблакаТипКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="СписокЭлементовИзОблакаТипРасширеннаяПодсказка" id="28"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="СписокЭлементовИзОблакаИмя" id="23">
+					<DataPath>СписокЭлементовИзОблака.Имя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокЭлементовИзОблакаИмяКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="СписокЭлементовИзОблакаИмяРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="СписокЭлементовИзОблакаСоздан" id="29">
+					<DataPath>СписокЭлементовИзОблака.Создан</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокЭлементовИзОблакаСозданКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СписокЭлементовИзОблакаСозданРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="СписокЭлементовИзОблакаИзменен" id="32">
+					<DataPath>СписокЭлементовИзОблака.Изменен</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокЭлементовИзОблакаИзмененКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СписокЭлементовИзОблакаИзмененРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="СписокЭлементовИзОблакаИнформация" id="35">
+					<DataPath>СписокЭлементовИзОблака.Информация</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокЭлементовИзОблакаИнформацияКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="СписокЭлементовИзОблакаИнформацияРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="Группа2" id="44">
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<InputField name="ИмяЭлементаИзОблака" id="38">
+					<DataPath>ИмяЭлементаИзОблака</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ИмяЭлементаИзОблакаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ИмяЭлементаИзОблакаРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ТипЭлемента" id="41">
+					<DataPath>ТипЭлемента</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<TitleLocation>None</TitleLocation>
+					<Width>3</Width>
+					<ContextMenu name="ТипЭлементаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ТипЭлементаРасширеннаяПодсказка" id="43"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<CheckBoxField name="НеВключатьПодчиненныеЗапросы" id="48">
+			<DataPath>НеВключатьПодчиненныеЗапросы</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="НеВключатьПодчиненныеЗапросыКонтекстноеМеню" id="49"/>
+			<ExtendedTooltip name="НеВключатьПодчиненныеЗапросыРасширеннаяПодсказка" id="50"/>
+		</CheckBoxField>
+		<UsualGroup name="Группа3" id="51">
+			<HorizontalStretch>true</HorizontalStretch>
+			<HorizontalAlign>Right</HorizontalAlign>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<Button name="КнопкаВыполнить" id="55">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.КнопкаВыполнить</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;Выполнить&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КнопкаВыполнитьРасширеннаяПодсказка" id="56"/>
+				</Button>
+				<Button name="Отмена" id="53">
+					<Type>UsualButton</Type>
+					<CommandName>Form.StandardCommand.Cancel</CommandName>
+					<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="54"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.КонсольЗапросов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Путь" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокЭлементовИзОблака" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список элементов из облака</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Имя" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Тип" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Создан" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создан</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Изменен" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменен</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Информация" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Информация</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="id" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Id</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ТипКартинка" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип картинка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ИмяЭлементаИзОблака" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя элемента из облака</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТипЭлемента" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип элемента</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НеВключатьПодчиненныеЗапросы" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не включать подчиненные запросы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущийПакет" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий пакет</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТипОбработка" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип обработка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущийПуть" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий путь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Settings>
+		</Attribute>
+		<Attribute name="ИдентификаторСессии" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор сессии</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТипыИсточниковДанных" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы источников данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="Режим" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режим</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Тип" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредыдущийЭлемент" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущий элемент</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ОперацииСЗапросами" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Операции с запросами</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Домой" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>\</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Домой</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Домой</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="УровеньВверх" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уровень вверх</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уровень вверх</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>BackSpace</Shortcut>
+			<Picture>
+				<xr:Ref>StdPicture.OpenFile</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УровеньВверх</Action>
+			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="КнопкаВыполнить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопка выполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопка выполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КнопкаВыполнить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОбновитьСписок" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>F5</Shortcut>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьСписок</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СоздатьНовыйПакет" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать новый пакет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать новый пакет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateFolder</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СоздатьНовыйПакет</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Удалить" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Удалить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Опубликовать" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Опубликовать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Опубликовать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Опубликовать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>
