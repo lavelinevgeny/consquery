@@ -13,4 +13,5 @@
 
 ## Возможности обработки
 - Сайт обработки <a href = "https://consquery.ru" target="_blank">consquery.ru</a>
-- Канал на youtube <a href = "https://www.youtube.com/@1-consquery_ru661" target="_blank">@1-consquery_ru661</a>
+- Канал на youtube <a href = "https://www.youtube.com/@consquery_ru" target="_blank">@consquery_ru</a>
+- Группа в telegram <a href = "https://t.me/consquery" target="_blank">consquery</a>
