@@ -1,5 +1,6 @@
 [![Join telegram chat](https://img.shields.io/badge/chat-telegram-blue?style=flat&logo=telegram)](https://t.me/consquery)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![OpenYellow](https://img.shields.io/endpoint?url=https://openyellow.neocities.org/badges/1/170938418.json)](https://openyellow.notion.site/openyellow/24727888daa641af95514b46bee4d6f2?p=1cf8ebf062ea45bdbe4902540b5385a8&amp;pm=s)
 
 Старое расположение <a href = "https://github.com/evgenylavelin/consquery" target="_blank">здесь</a>
 # Консоль запросов 1С consquery.ru
