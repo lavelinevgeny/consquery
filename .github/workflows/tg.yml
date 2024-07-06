@@ -1,9 +1,9 @@
 name: Notify Telegram on Push, Release, and Prerelease
 
 on:
-  push:
-    branches:
-      - "**"
+  # push:
+  #   branches:
+  #     - "**"
   release:
     types: [published]
 
