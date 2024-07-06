@@ -1,0 +1,78 @@
+name: Notify Telegram on Push, Release, and Prerelease
+
+on:
+  push:
+    branches:
+      - "**"
+  release:
+    types: [published]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Send notification to Telegram
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      run: |
+        EVENT_NAME=${{ github.event_name }}
+        EVENT_ACTION=${{ github.event.action }}
+
+        # MESSAGE="${{ github.event_name }}
+        # ${{ github.event.action }}
+        # ${{ github.event.release.tag_name }}: Имя тега релиза.
+        # ${{ github.event.release.name }}: Название релиза.
+        # ${{ github.event.release.body }}: Описание релиза.
+        # ${{ github.event.release.html_url }}: URL релиза.
+        # ${{ github.event.release.upload_url }}: URL для загрузки артефактов релиза.
+        # ${{ github.event.release.draft }}: Булево значение, указывающее, является ли релиз черновиком.
+        # ${{ github.event.release.prerelease }}: Булево значение, указывающее, является ли релиз пререлизом.
+        # ${{ github.event.repository.full_name }}: Полное имя репозитория (например, user/repo).
+        # ${{ github.event.repository.html_url }}: URL репозитория.
+        # ${{ github.repository }}: Полное имя репозитория (например, user/repo).
+        # ${{ github.ref }}: Полный путь к ветке или тегу, который вызвал событие.
+        # ${{ github.sha }}: SHA коммита, который вызвал событие.
+        # "
+        
+        FLAG_SEND_MESSAGE=false        
+        
+        if [ "$EVENT_NAME" == "push" ]; then
+          COMMIT_DATE=$(git log -1 --pretty=format:'%ad' --date=short)
+          COMMIT_HASH=$(git rev-parse HEAD)
+          COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
+          REPO_URL=$(git config --get remote.origin.url | sed 's/git@github.com:/https:\/\/github.com\//;s/.git$//')
+          COMMIT_URL="$REPO_URL/commit/$COMMIT_HASH"
+          MESSAGE="<b>Push Event:</b>
+          <b>Repository:</b> <a href=\"$REPO_URL\">GitHub Repo</a>
+          <b>Commit:</b> <a href=\"$COMMIT_URL\">$COMMIT_HASH</a>
+          <b>Date:</b> $COMMIT_DATE"
+          FLAG_SEND_MESSAGE=false
+        elif [ "$EVENT_ACTION" == "published" ]; then
+          RELEASE_URL=${{ github.event.release.html_url }}
+          REPO_URL=$(git config --get remote.origin.url | sed 's/git@github.com:/https:\/\/github.com\//;s/.git$//')
+          IS_PRERELEASE=${{ github.event.release.prerelease }}
+          FLAG_SEND_MESSAGE=true
+
+          if [ $IS_PRERELEASE == true ]; then
+            MESSAGE="#Пререлиз
+        <b>Новый <u>пре</u>релиз <a href=\"$RELEASE_URL\">${{ github.event.release.name }}</a>:</b>💀"
+          else 
+            MESSAGE="#Релиз
+        <b>Новый релиз <a href=\"$RELEASE_URL\">${{ github.event.release.name }}</a>:</b>🚀"
+          fi
+          MESSAGE+="
+        <b>Описание:</b> ${{ github.event.release.body }}
+        "
+        fi
+
+        if [ $FLAG_SEND_MESSAGE == true ]; then
+          curl -s -X POST https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage \
+            -d chat_id=$TELEGRAM_CHAT_ID \
+            -d text="$MESSAGE" \
+            -d parse_mode=HTML
+        fi
