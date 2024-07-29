@@ -1,0 +1,14 @@
+# Файлы
+*.log
+*.ospx
+
+*.epf
+
+**/ConfigDumpInfo.xml
+.vscode/launch.json
+
+# Каталоги
+build/
+oscript_modules/
+.scannerwork/
+allure-report/
