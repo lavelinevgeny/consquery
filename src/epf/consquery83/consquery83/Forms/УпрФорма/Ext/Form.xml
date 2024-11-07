@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<Width>90</Width>
 	<AutoTitle>false</AutoTitle>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -647,13 +647,7 @@
 							</ContextMenu>
 							<ExtendedTooltip name="ТекстТекущегоЗапросаРасширеннаяПодсказка" id="456"/>
 						</TextDocumentField>
-						<UsualGroup name="ГруппаПараметрыЗапросов" id="265">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Скрыть параметры запроса</v8:content>
-								</v8:item>
-							</Title>
+						<UsualGroup name="ГруппаПараметрыТекущегоЗапроса" id="265">
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -663,7 +657,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаПараметрыЗапросовРасширеннаяПодсказка" id="459"/>
+							<ExtendedTooltip name="ГруппаПараметрыТекущегоЗапросаРасширеннаяПодсказка" id="459"/>
 							<ChildItems>
 								<Table name="ПараметрыТекущегоЗапроса" id="375">
 									<Representation>List</Representation>
@@ -683,7 +677,7 @@
 											<ButtonGroup name="ПараметрыТекущегоЗапросаГруппа1" id="534">
 												<ExtendedTooltip name="ПараметрыТекущегоЗапросаГруппа1РасширеннаяПодсказка" id="535"/>
 												<ChildItems>
-													<Button name="ПараметрыЗапросовЗаполнитьПараметрыИзЗапроса" id="397">
+													<Button name="ПараметрыТекущегоЗапросаЗаполнитьПараметрыИзЗапроса" id="397">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ЗаполнитьПараметрыИзЗапроса</CommandName>
 														<Title>
@@ -692,7 +686,7 @@
 																<v8:content>Загрузить параметры из запроса</v8:content>
 															</v8:item>
 														</Title>
-														<ExtendedTooltip name="ПараметрыЗапросовЗаполнитьПараметрыИзЗапросаРасширеннаяПодсказка" id="460"/>
+														<ExtendedTooltip name="ПараметрыТекущегоЗапросаЗаполнитьПараметрыИзЗапросаРасширеннаяПодсказка" id="460"/>
 													</Button>
 												</ChildItems>
 											</ButtonGroup>
@@ -748,22 +742,17 @@
 										<ExtendedTooltip name="ПараметрыТекущегоЗапросаУправлениеПоискомРасширеннаяПодсказка" id="470"/>
 									</SearchControlAddition>
 									<Events>
-										<Event name="OnEditEnd">ПараметрыТекущегоЗапросаПриОкончанииРедактирования</Event>
+										<Event name="OnActivateField">ПараметрыТекущегоЗапросаПриАктивизацииПоля</Event>
+										<Event name="OnStartEdit">ПараметрыТекущегоЗапросаПриНачалеРедактирования</Event>
 									</Events>
 									<ChildItems>
-										<InputField name="ПараметрыЗапросовИмя" id="388">
+										<InputField name="ПараметрыТекущегоЗапросаИмя" id="388">
 											<DataPath>ПараметрыТекущегоЗапроса.Имя</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ПараметрыЗапросовИмяКонтекстноеМеню" id="389"/>
-											<ExtendedTooltip name="ПараметрыЗапросовИмяРасширеннаяПодсказка" id="471"/>
+											<ContextMenu name="ПараметрыТекущегоЗапросаИмяКонтекстноеМеню" id="389"/>
+											<ExtendedTooltip name="ПараметрыТекущегоЗапросаИмяРасширеннаяПодсказка" id="471"/>
 										</InputField>
-										<ColumnGroup name="ПараметрыЗапросовГруппаТипКартинка" id="402">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Параметры запроса группа тип картинка</v8:content>
-												</v8:item>
-											</Title>
+										<ColumnGroup name="ПараметрыТекущегоЗапросаГруппаТипКартинка" id="402">
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -771,17 +760,17 @@
 												</v8:item>
 											</ToolTip>
 											<Group>InCell</Group>
-											<ExtendedTooltip name="ПараметрыЗапросовГруппаТипКартинкаРасширеннаяПодсказка" id="472"/>
+											<ExtendedTooltip name="ПараметрыТекущегоЗапросаГруппаТипКартинкаРасширеннаяПодсказка" id="472"/>
 											<ChildItems>
-												<PictureField name="ПараметрыЗапросовКартинкаТипа" id="399">
+												<PictureField name="ПараметрыТекущегоЗапросаКартинкаТипа" id="399">
 													<DataPath>ПараметрыТекущегоЗапроса.КартинкаТипа</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<FileDragMode>AsFile</FileDragMode>
-													<ContextMenu name="ПараметрыЗапросовКартинкаТипаКонтекстноеМеню" id="400"/>
-													<ExtendedTooltip name="ПараметрыЗапросовКартинкаТипаРасширеннаяПодсказка" id="473"/>
+													<ContextMenu name="ПараметрыТекущегоЗапросаКартинкаТипаКонтекстноеМеню" id="400"/>
+													<ExtendedTooltip name="ПараметрыТекущегоЗапросаКартинкаТипаРасширеннаяПодсказка" id="473"/>
 												</PictureField>
-												<InputField name="ПараметрыЗапросовТип" id="391">
+												<InputField name="ПараметрыТекущегоЗапросаТип" id="391">
 													<DataPath>ПараметрыТекущегоЗапроса.ТипВФорме</DataPath>
 													<Title>
 														<v8:item>
@@ -791,33 +780,34 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<ChoiceButton>true</ChoiceButton>
-													<ContextMenu name="ПараметрыЗапросовТипКонтекстноеМеню" id="392"/>
-													<ExtendedTooltip name="ПараметрыЗапросовТипРасширеннаяПодсказка" id="474"/>
+													<TextEdit>false</TextEdit>
+													<ContextMenu name="ПараметрыТекущегоЗапросаТипКонтекстноеМеню" id="392"/>
+													<ExtendedTooltip name="ПараметрыТекущегоЗапросаТипРасширеннаяПодсказка" id="474"/>
 													<Events>
-														<Event name="StartChoice">ПараметрыЗапросовТипНачалоВыбора</Event>
+														<Event name="StartChoice">ПараметрыТекущегоЗапросаТипНачалоВыбора</Event>
 													</Events>
 												</InputField>
 											</ChildItems>
 										</ColumnGroup>
-										<InputField name="ПараметрыЗапросовЗначение" id="394">
+										<InputField name="ПараметрыТекущегоЗапросаЗначениеВФорме" id="394">
 											<DataPath>ПараметрыТекущегоЗапроса.ЗначениеВФорме</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
 											<ChooseType>false</ChooseType>
-											<ContextMenu name="ПараметрыЗапросовЗначениеКонтекстноеМеню" id="395"/>
-											<ExtendedTooltip name="ПараметрыЗапросовЗначениеРасширеннаяПодсказка" id="475"/>
+											<ContextMenu name="ПараметрыТекущегоЗапросаЗначениеВФормеВФормеКонтекстноеМеню" id="395"/>
+											<ExtendedTooltip name="ПараметрыТекущегоЗапросаЗначениеВФормеВФормеРасширеннаяПодсказка" id="475"/>
 											<Events>
-												<Event name="OnChange">ПараметрыЗапросовЗначениеПриИзменении</Event>
-												<Event name="StartChoice">ПараметрыЗапросовЗначениеНачалоВыбора</Event>
+												<Event name="OnChange">ПараметрыТекущегоЗапросаЗначениеВФормеПриИзменении</Event>
+												<Event name="StartChoice">ПараметрыТекущегоЗапросаЗначениеВФормеНачалоВыбора</Event>
 											</Events>
 										</InputField>
-										<CheckBoxField name="ПараметрыЗапросовГлобальныйПараметр" id="406">
+										<CheckBoxField name="ПараметрыТекущегоЗапросаГлобальныйПараметр" id="406">
 											<DataPath>ПараметрыТекущегоЗапроса.ГлобальныйПараметр</DataPath>
 											<EditMode>Directly</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="ПараметрыЗапросовГлобальныйПараметрКонтекстноеМеню" id="407"/>
-											<ExtendedTooltip name="ПараметрыЗапросовГлобальныйПараметрРасширеннаяПодсказка" id="476"/>
+											<ContextMenu name="ПараметрыТекущегоЗапросаГлобальныйПараметрКонтекстноеМеню" id="407"/>
+											<ExtendedTooltip name="ПараметрыТекущегоЗапросаГлобальныйПараметрРасширеннаяПодсказка" id="476"/>
 										</CheckBoxField>
 										<CheckBoxField name="ПараметрыТекущегоЗапросаДобавлятьВоВременнуюТвблицу" id="495">
 											<DataPath>ПараметрыТекущегоЗапроса.ДобавлятьВоВременнуюТаблицу</DataPath>
@@ -1179,6 +1169,21 @@
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
+				<Column name="ТипСтрокой" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип строкой</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ИсполняемыйКод" id="26">
@@ -1250,140 +1255,6 @@
 							<v8:Length>0</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
-					</Type>
-				</Column>
-			</Columns>
-		</Attribute>
-		<Attribute name="ПараметрыЗапросов" id="27">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Параметры запросов</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8:ValueTable</v8:Type>
-			</Type>
-			<Columns>
-				<Column name="Имя" id="1">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Имя</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="Тип" id="2">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Тип</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="Значение" id="3">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Значение</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="ТипВФорме" id="4">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Тип в форме</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="ЗначениеВФорме" id="5">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Значение</v8:content>
-						</v8:item>
-					</Title>
-					<Type/>
-				</Column>
-				<Column name="КартинкаТипа" id="6">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Картинка типа</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>v8ui:Picture</v8:Type>
-					</Type>
-				</Column>
-				<Column name="ИдентификаторЗапроса" id="7">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Идентификатор запроса</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>40</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="ИдентификаторСтроки" id="8">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Идентификатор строки</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="ДобавлятьВоВременнуюТаблицу" id="9">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Добавлять во временную таблицу</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
 			</Columns>
@@ -1619,7 +1490,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="АдресПараметровЗапросов" id="12">
+		<Attribute name="АдресОбщейТаблицыСПараметрамиЗапросов" id="12">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1634,37 +1505,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="КолонкиПараметровТекущегоЗапроса" id="13">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Колонки параметров текущего запроса</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="КолонкиПараметровЗапросов" id="15">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Колонки параметров запросов</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="АдресТЗСИнформациейПоТипам" id="5">
+		<Attribute name="АдресТаблицыСИнформациейПоТипам" id="5">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1709,28 +1550,17 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<ConditionalAppearance>
-			<dcsset:item>
-				<dcsset:selection>
-					<dcsset:item>
-						<dcsset:field>ПараметрыЗапросовИмя</dcsset:field>
-					</dcsset:item>
-				</dcsset:selection>
-				<dcsset:filter>
-					<dcsset:item xsi:type="dcsset:FilterItemComparison">
-						<dcsset:left xsi:type="dcscor:Field">ПараметрыТекущегоЗапроса.ГлобальныйПараметр</dcsset:left>
-						<dcsset:comparisonType>Equal</dcsset:comparisonType>
-						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
-					</dcsset:item>
-				</dcsset:filter>
-				<dcsset:appearance>
-					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-						<dcscor:parameter>ЦветФона</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">web:Red</dcscor:value>
-					</dcscor:item>
-				</dcsset:appearance>
-			</dcsset:item>
-		</ConditionalAppearance>
+		<Attribute name="КолонкиРезультатаЗапроса" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонки результата запроса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗаполнитьПараметрыИзЗапроса" id="3">
