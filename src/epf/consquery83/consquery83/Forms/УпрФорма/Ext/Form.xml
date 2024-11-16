@@ -799,7 +799,9 @@
 											<ExtendedTooltip name="ПараметрыТекущегоЗапросаЗначениеВФормеВФормеРасширеннаяПодсказка" id="475"/>
 											<Events>
 												<Event name="OnChange">ПараметрыТекущегоЗапросаЗначениеВФормеПриИзменении</Event>
+												<Event name="AutoComplete">ПараметрыТекущегоЗапросаЗначениеВФормеАвтоПодбор</Event>
 												<Event name="StartChoice">ПараметрыТекущегоЗапросаЗначениеВФормеНачалоВыбора</Event>
+												<Event name="StartListChoice">ПараметрыТекущегоЗапросаЗначениеВФормеНачалоВыбораИзСписка</Event>
 											</Events>
 										</InputField>
 										<CheckBoxField name="ПараметрыТекущегоЗапросаГлобальныйПараметр" id="406">
@@ -1559,6 +1561,17 @@
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтключитьБыстрыйВыборВПараметрах" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отключить быстрый выбор в параметрах</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
