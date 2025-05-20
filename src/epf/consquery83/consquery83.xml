@@ -6,13 +6,13 @@
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
 				<xr:ObjectId>cfcdeca6-78cf-4d72-82c1-492a27201f80</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.КонсольЗапросов" category="Object">
+			<xr:GeneratedType name="ExternalDataProcessorObject.consquery" category="Object">
 				<xr:TypeId>e9687fdc-7755-439c-8c4c-c2e3ff7dc837</xr:TypeId>
 				<xr:ValueId>3537b24e-78da-4c62-8418-f83ccf791663</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КонсольЗапросов</Name>
+			<Name>consquery</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -20,8 +20,8 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalDataProcessor.КонсольЗапросов.Form.Форма</DefaultForm>
-			<AuxiliaryForm>ExternalDataProcessor.КонсольЗапросов.Form.УпрФорма</AuxiliaryForm>
+			<DefaultForm>ExternalDataProcessor.consquery.Form.Форма</DefaultForm>
+			<AuxiliaryForm>ExternalDataProcessor.consquery.Form.УпрФорма</AuxiliaryForm>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="8b95abbf-7350-4430-92b8-bec00b9781d4">
