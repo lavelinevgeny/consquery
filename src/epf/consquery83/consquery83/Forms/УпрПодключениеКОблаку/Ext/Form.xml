@@ -131,7 +131,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.КонсольЗапросов</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.consquery</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
